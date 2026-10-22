@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <rect width="800" height="800" fill="#FFFFFF"/>
+  <g transform="translate(400, 260)">
+    <!-- Outer Shield / Home Emblem (#0F172A) -->
+    <path d="M0,-140 L115,-40 L115,80 C115,130 65,160 0,175 C-65,160 -115,130 -115,80 L-115,-40 Z" fill="none" stroke="#0F172A" stroke-width="12" stroke-linejoin="round"/>
+    
+    <!-- Stylized S Monogram in Teal (#0D9488) -->
+    <path d="M45,-80 C15,-95 -35,-90 -55,-60 C-75,-30 -40,-5 0,15 C45,35 65,65 50,95 C35,120 -15,125 -55,105" fill="none" stroke="#0D9488" stroke-width="20" stroke-linecap="round"/>
+    
+    <!-- Roof Accent in Teal (#0D9488) -->
+    <polygon points="0,-120 70,-60 55,-48 0,-95 -55,-48 -70,-60" fill="#0D9488"/>
+
+    <!-- Sparkle/Star Emblem for Cleanliness -->
+    <circle cx="0" cy="5" r="8" fill="#0D9488"/>
+  </g>
+  
+  <!-- Main Brand Title -->
+  <text x="400" y="520" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Inter', 'Segoe UI', sans-serif" font-size="64" font-weight="800" fill="#0F172A" letter-spacing="8">SORATH PG</text>
+  
+  <!-- Divider Lines -->
+  <line x1="120" y1="565" x2="200" y2="565" stroke="#0D9488" stroke-width="3" stroke-linecap="round"/>
+  <line x1="600" y1="565" x2="680" y2="565" stroke="#0D9488" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Tagline -->
+  <text x="400" y="572" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Inter', 'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#0D9488" letter-spacing="4">SMART • CLEAN • BUDGET-FRIENDLY</text>
+</svg>
