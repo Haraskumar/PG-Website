@@ -38,14 +38,14 @@ export default function Hero() {
         {/* Hero Headings */}
         <div className="text-center max-w-4xl mx-auto space-y-6">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-[1.15]">
-            Live Smarter, Eat Better & Focus More in{' '}
+            Find Your Kind of Stay in{' '}
             <span className="bg-gradient-to-r from-amber-300 via-amber-200 to-teal-300 bg-clip-text text-transparent">
-              Ahmedabad’s Prime PGs
+              Ahmedabad
             </span>
           </h1>
 
           <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto font-normal leading-relaxed">
-            7 verified student and executive co-living stays across <strong>Navrangpura</strong> and <strong>Naranpura</strong>. High-speed 150 Mbps Wi-Fi, chef-prepared meals (3 & 4 times), round-the-clock security, and immediate college transit.
+            Safe, hygienic and food-inclusive student & executive PGs across <strong>Navrangpura</strong> and <strong>Naranpura</strong>. Walking distance to Gujarat University, CEPT, and LD College.
           </p>
 
           {/* Quick CTA Buttons */}
@@ -79,10 +79,10 @@ export default function Hero() {
         </div>
 
         {/* Dual Brand Split Showcase Cards */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="mt-14 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           
           {/* Card 1: LUXORA COLLECTION */}
-          <div className="relative group bg-gradient-to-br from-luxora-950 via-slate-900 to-luxora-900 rounded-3xl p-8 border border-amber-500/40 shadow-2xl transition-all duration-300 hover:scale-[1.02] flex flex-col justify-between">
+          <div className="relative group bg-gradient-to-br from-luxora-950 via-slate-900 to-luxora-900 rounded-3xl p-7 sm:p-8 border border-amber-500/40 shadow-2xl transition-all duration-300 hover:scale-[1.01] flex flex-col justify-between">
             <div className="absolute top-0 right-0 w-32 h-32 bg-amber-500/10 rounded-full blur-2xl pointer-events-none" />
             <div>
               <div className="flex items-center justify-between mb-4">
@@ -100,52 +100,65 @@ export default function Hero() {
                     <h3 className="text-xl font-black text-amber-300 font-serif tracking-wider">
                       LUXORA PG
                     </h3>
-                    <p className="text-[10px] text-amber-400/80 uppercase font-semibold">
-                      Luxury Co-Living
+                    <p className="text-[10px] text-amber-400/90 uppercase font-bold tracking-wider">
+                      Luxury Boutique Co-Living
                     </p>
                   </div>
                 </div>
-                <span className="text-xs font-black text-amber-400 bg-amber-400/10 border border-amber-400/30 px-3 py-1 rounded-full">
-                  From ₹12k – ₹20k
-                </span>
+                <div className="text-right">
+                  <span className="text-xs font-black text-amber-400 bg-amber-400/15 border border-amber-400/40 px-3 py-1 rounded-full">
+                    Starting from ₹12,000 / mo
+                  </span>
+                  <div className="text-[10px] text-slate-400 mt-1">Girls: ₹12k+ • Boys: ₹15k+</div>
+                </div>
               </div>
 
-              <p className="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6">
-                Premium student & executive suites. Featuring 100% AC accommodation, 4-time dining, private mini-theatre / tokiz, silent study room, and fingerprint biometric locks.
-              </p>
+              {/* Special Differentiator Callout */}
+              <div className="p-3 rounded-2xl bg-amber-400/10 border border-amber-400/30 text-amber-300 text-xs font-bold mb-5 flex items-center">
+                <Sparkles className="w-4 h-4 mr-2 text-amber-400 shrink-0" />
+                <span>Includes ALL Core Amenities of Sorath, PLUS:</span>
+              </div>
 
               {/* Inclusions checklist */}
-              <div className="space-y-2 mb-6 text-xs text-slate-300">
-                <div className="flex items-center">
-                  <CheckCircle2 className="w-4 h-4 mr-2 text-amber-400 shrink-0" />
-                  <span><strong>4-Time Meals:</strong> Breakfast, Lunch, Evening Snacks & Dinner</span>
+              <div className="space-y-2.5 mb-6 text-xs text-slate-200">
+                <div className="flex items-start">
+                  <CheckCircle2 className="w-4 h-4 mr-2 text-amber-400 shrink-0 mt-0.5" />
+                  <span><strong>4-Time Gourmet Meals:</strong> Breakfast, Lunch, Hot Evening Snacks & Dinner</span>
                 </div>
-                <div className="flex items-center">
-                  <CheckCircle2 className="w-4 h-4 mr-2 text-amber-400 shrink-0" />
-                  <span><strong>Entertainment:</strong> Home Cinema / Tokiz & Gaming Zone</span>
+                <div className="flex items-start">
+                  <CheckCircle2 className="w-4 h-4 mr-2 text-amber-400 shrink-0 mt-0.5" />
+                  <span><strong>100% Fully Air-Conditioned:</strong> Premium suites with attached private bath</span>
                 </div>
-                <div className="flex items-center">
-                  <CheckCircle2 className="w-4 h-4 mr-2 text-amber-400 shrink-0" />
-                  <span><strong>Security:</strong> Biometric Fingerprint Entry & CCTV</span>
+                <div className="flex items-start">
+                  <CheckCircle2 className="w-4 h-4 mr-2 text-amber-400 shrink-0 mt-0.5" />
+                  <span><strong>100% Generator Power Backup:</strong> Uninterrupted power for exam study</span>
                 </div>
-                <div className="flex items-center">
-                  <CheckCircle2 className="w-4 h-4 mr-2 text-amber-400 shrink-0" />
-                  <span><strong>Locations:</strong> Navrangpura (Boys 1) & Naranpura (Girls 1)</span>
+                <div className="flex items-start">
+                  <CheckCircle2 className="w-4 h-4 mr-2 text-amber-400 shrink-0 mt-0.5" />
+                  <span><strong>Fingerprint Biometric Entry:</strong> Keyless, high-security door locks</span>
+                </div>
+                <div className="flex items-start">
+                  <CheckCircle2 className="w-4 h-4 mr-2 text-amber-400 shrink-0 mt-0.5" />
+                  <span><strong>Tokiz Cinema & Gaming:</strong> Private mini-theatre & quiet study lounge</span>
+                </div>
+                <div className="flex items-start">
+                  <CheckCircle2 className="w-4 h-4 mr-2 text-amber-400 shrink-0 mt-0.5" />
+                  <span><strong>Prime Locations:</strong> Stadium Six Road (Boys 1) & Naranpura (Girls 1)</span>
                 </div>
               </div>
             </div>
 
             <Link
-              href="/pgs"
+              href="/pgs?brand=LUXORA"
               className="w-full py-3.5 px-4 rounded-xl bg-amber-400 hover:bg-amber-300 text-luxora-950 font-black text-xs text-center transition-all flex items-center justify-center shadow-lg shadow-amber-400/20 active:scale-95"
             >
-              <span>Explore All 7 Properties (View Luxora & Sorath)</span>
+              <span>Explore Luxora Luxury PGs (from ₹12,000)</span>
               <ChevronRight className="w-4 h-4 ml-1" />
             </Link>
           </div>
 
           {/* Card 2: SORATH COLLECTION */}
-          <div className="relative group bg-gradient-to-br from-slate-900 via-teal-950 to-slate-900 rounded-3xl p-8 border border-teal-500/40 shadow-2xl transition-all duration-300 hover:scale-[1.02] flex flex-col justify-between">
+          <div className="relative group bg-gradient-to-br from-slate-900 via-teal-950 to-slate-900 rounded-3xl p-7 sm:p-8 border border-teal-500/40 shadow-2xl transition-all duration-300 hover:scale-[1.01] flex flex-col justify-between">
             <div className="absolute top-0 right-0 w-32 h-32 bg-teal-500/10 rounded-full blur-2xl pointer-events-none" />
             <div>
               <div className="flex items-center justify-between mb-4">
@@ -163,77 +176,63 @@ export default function Hero() {
                     <h3 className="text-xl font-extrabold text-white tracking-wide">
                       SORATH PG
                     </h3>
-                    <p className="text-[10px] text-teal-400 uppercase font-semibold">
-                      Smart Budget Stays
+                    <p className="text-[10px] text-teal-400 uppercase font-bold tracking-wider">
+                      Smart Budget & Highly Clean Stays
                     </p>
                   </div>
                 </div>
-                <span className="text-xs font-black text-teal-300 bg-teal-400/10 border border-teal-400/30 px-3 py-1 rounded-full">
-                  From ₹8.5k – ₹14k
-                </span>
+                <div className="text-right">
+                  <span className="text-xs font-black text-teal-300 bg-teal-400/15 border border-teal-400/40 px-3 py-1 rounded-full">
+                    Starting from ₹8,500 / mo
+                  </span>
+                  <div className="text-[10px] text-slate-400 mt-1">Boys: ₹8.5k+ • Girls: ₹9.5k+</div>
+                </div>
               </div>
 
-              <p className="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6">
-                Clean, budget-conscious, highly hygienic co-living right on Vijay Cross Road. Includes 3 wholesome home-cooked meals, 150 Mbps Wi-Fi, lift access, and round-the-clock safety.
-              </p>
+              {/* Tagline / Inclusions Header */}
+              <div className="p-3 rounded-2xl bg-teal-500/10 border border-teal-400/30 text-teal-300 text-xs font-bold mb-5 flex items-center">
+                <ShieldCheck className="w-4 h-4 mr-2 text-teal-400 shrink-0" />
+                <span>Complete Core Student Living Essentials Included:</span>
+              </div>
 
               {/* Inclusions checklist */}
-              <div className="space-y-2 mb-6 text-xs text-slate-300">
-                <div className="flex items-center">
-                  <CheckCircle2 className="w-4 h-4 mr-2 text-teal-400 shrink-0" />
-                  <span><strong>3-Time Meals:</strong> Breakfast, Lunch & Dinner Included</span>
+              <div className="space-y-2.5 mb-6 text-xs text-slate-200">
+                <div className="flex items-start">
+                  <CheckCircle2 className="w-4 h-4 mr-2 text-teal-400 shrink-0 mt-0.5" />
+                  <span><strong>3-Time Homely Meals:</strong> Fresh Breakfast, Lunch & Hot Dinner</span>
                 </div>
-                <div className="flex items-center">
-                  <CheckCircle2 className="w-4 h-4 mr-2 text-teal-400 shrink-0" />
-                  <span><strong>Room Tiers:</strong> Both AC and Non-AC Configurations</span>
+                <div className="flex items-start">
+                  <CheckCircle2 className="w-4 h-4 mr-2 text-teal-400 shrink-0 mt-0.5" />
+                  <span><strong>150 Mbps Fiber Wi-Fi:</strong> Dedicated dual-mesh line on every floor</span>
                 </div>
-                <div className="flex items-center">
-                  <CheckCircle2 className="w-4 h-4 mr-2 text-teal-400 shrink-0" />
-                  <span><strong>Wi-Fi:</strong> 150 Mbps Optical Fiber with zero lag</span>
+                <div className="flex items-start">
+                  <CheckCircle2 className="w-4 h-4 mr-2 text-teal-400 shrink-0 mt-0.5" />
+                  <span><strong>24/7 CCTV & Security:</strong> Monitored premises with on-site caretaker</span>
                 </div>
-                <div className="flex items-center">
-                  <CheckCircle2 className="w-4 h-4 mr-2 text-teal-400 shrink-0" />
-                  <span><strong>Locations:</strong> Vijay Cross Road & Pallavi Tower 1 (5 PGs)</span>
+                <div className="flex items-start">
+                  <CheckCircle2 className="w-4 h-4 mr-2 text-teal-400 shrink-0 mt-0.5" />
+                  <span><strong>Multi-Stage RO Water:</strong> Pure drinking water station on each floor</span>
+                </div>
+                <div className="flex items-start">
+                  <CheckCircle2 className="w-4 h-4 mr-2 text-teal-400 shrink-0 mt-0.5" />
+                  <span><strong>Laundry & Daily Cleaning:</strong> Washing machines & daily room sweeping</span>
+                </div>
+                <div className="flex items-start">
+                  <CheckCircle2 className="w-4 h-4 mr-2 text-teal-400 shrink-0 mt-0.5" />
+                  <span><strong>Prime Hub:</strong> Vijay Cross Road & Pallavi Tower (5 PGs)</span>
                 </div>
               </div>
             </div>
 
             <Link
-              href="/pgs"
+              href="/pgs?brand=SORATH"
               className="w-full py-3.5 px-4 rounded-xl bg-teal-600 hover:bg-teal-500 text-white font-black text-xs text-center transition-all flex items-center justify-center shadow-lg shadow-teal-600/20 active:scale-95"
             >
-              <span>Explore All 7 Properties (View Sorath & Luxora)</span>
+              <span>Explore Sorath Budget PGs (from ₹8,500)</span>
               <ChevronRight className="w-4 h-4 ml-1" />
             </Link>
           </div>
 
-        </div>
-
-        {/* Feature Badges Grid */}
-        <div className="mt-16 pt-10 border-t border-slate-800/80 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-          <div className="p-4 rounded-2xl bg-slate-900/60 border border-slate-800">
-            <Utensils className="w-6 h-6 mx-auto mb-2 text-amber-400" />
-            <div className="text-lg font-black text-white">4 & 3 Meals</div>
-            <div className="text-xs text-slate-400">Nutritious Home Cooking</div>
-          </div>
-
-          <div className="p-4 rounded-2xl bg-slate-900/60 border border-slate-800">
-            <Wifi className="w-6 h-6 mx-auto mb-2 text-blue-400" />
-            <div className="text-lg font-black text-white">150 Mbps Wi-Fi</div>
-            <div className="text-xs text-slate-400">Fiber Optic Coverage</div>
-          </div>
-
-          <div className="p-4 rounded-2xl bg-slate-900/60 border border-slate-800">
-            <ShieldCheck className="w-6 h-6 mx-auto mb-2 text-emerald-400" />
-            <div className="text-lg font-black text-white">24/7 Security</div>
-            <div className="text-xs text-slate-400">CCTV & Biometric Entry</div>
-          </div>
-
-          <div className="p-4 rounded-2xl bg-slate-900/60 border border-slate-800">
-            <MapPin className="w-6 h-6 mx-auto mb-2 text-rose-400" />
-            <div className="text-lg font-black text-white">7 Prime PGs</div>
-            <div className="text-xs text-slate-400">Near Colleges & Metro</div>
-          </div>
         </div>
 
       </div>

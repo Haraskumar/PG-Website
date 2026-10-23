@@ -20,13 +20,13 @@ export default function FaqSection() {
         <div className="text-center mb-14">
           <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 bg-slate-100 rounded-full text-slate-700 text-xs font-bold uppercase tracking-wider mb-3">
             <HelpCircle className="w-3.5 h-3.5 text-amber-500" />
-            <span>Got Questions? We’ve Got Answers</span>
+            <span>Admissions & Stay Guidelines</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
             Frequently Asked Questions
           </h2>
           <p className="text-slate-600 text-sm sm:text-base mt-2">
-            Everything you need to know about our accommodations, meals, security, and admissions.
+            Quick answers about admission procedures, food timings, security, and room rules.
           </p>
         </div>
 

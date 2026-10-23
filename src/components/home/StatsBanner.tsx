@@ -10,7 +10,7 @@ interface Stat {
 }
 
 const STATS: Stat[] = [
-  { value: 500, suffix: '+', label: 'Happy Residents', emoji: '😊' },
+  { value: 400, suffix: '+', label: 'Student Residents', emoji: '🎓' },
   { value: 7, suffix: '', label: 'PG Properties', emoji: '🏠' },
   { value: 5, suffix: '+', label: 'Years Operating', emoji: '🗓️' },
   { value: 1500, suffix: '+', label: 'Meals Served Daily', emoji: '🍽️' },
@@ -70,7 +70,7 @@ export default function StatsBanner() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-10">
           <p className="text-slate-400 text-xs font-bold uppercase tracking-widest">
-            Trusted by Students, Parents & Professionals Across Ahmedabad
+            Trusted by 400+ Students & Parents Across Ahmedabad
           </p>
         </div>
 

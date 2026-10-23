@@ -35,3 +35,5 @@ yarn-error.log*
 
 # Large media archive & staging folders
 asset-work/
+__pycache__/
+.cph/

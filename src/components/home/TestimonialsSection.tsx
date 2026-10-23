@@ -10,13 +10,13 @@ export default function TestimonialsSection() {
         <div className="text-center max-w-3xl mx-auto mb-14">
           <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 bg-amber-50 border border-amber-200 rounded-full text-amber-800 text-xs font-bold uppercase tracking-wider mb-3">
             <Award className="w-3.5 h-3.5 text-amber-600" />
-            <span>Trusted By Students & Parents</span>
+            <span>Resident Reviews</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Loved by 500+ Residents Across Ahmedabad
+            What Students & Parents Say
           </h2>
-          <p className="text-slate-600 text-sm sm:text-base mt-3">
-            Hear from students studying at CEPT, Gujarat University, LD College, and working professionals who call Luxora and Sorath their second home.
+          <p className="text-slate-600 text-sm sm:text-base mt-2">
+            Real feedback from students studying at CEPT, Gujarat University, and LD College.
           </p>
         </div>
 

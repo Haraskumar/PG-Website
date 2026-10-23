@@ -13,10 +13,28 @@ interface TickerPhoto {
 
 const TICKER_PHOTOS: TickerPhoto[] = [
   {
-    src: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-01.webp',
-    title: 'Luxury 2-Sharing AC Suite',
+    src: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-luxury-01.webp',
+    title: 'Executive Luxury AC Suite',
     tag: 'Luxora Boys 1',
     property: 'Stadium Six Road'
+  },
+  {
+    src: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-luxury-02.webp',
+    title: 'Spacious AC Suite with Window',
+    tag: 'Luxora Boys 1',
+    property: 'Stadium Six Road'
+  },
+  {
+    src: '/images/pgs/luxora-boys-1/luxora-boys-1-corridor-01.webp',
+    title: 'Designer Corridor & Biometric Access',
+    tag: 'Luxora Boutique Living',
+    property: 'Keyless Electronic Entry'
+  },
+  {
+    src: '/images/pgs/luxora-boys-1/luxora-boys-1-hero.webp',
+    title: 'Luxora PG Official Building Facade',
+    tag: 'Luxora Boys 1',
+    property: 'Stadium Six Road, Navrangpura'
   },
   {
     src: '/images/pgs/luxora-girls-1/luxora-girls-1-hero.webp',
@@ -49,12 +67,6 @@ const TICKER_PHOTOS: TickerPhoto[] = [
     property: 'Naranpura Colony'
   },
   {
-    src: '/images/pgs/luxora-boys-1/luxora-boys-1-bathroom-01.webp',
-    title: 'Sanitized Bath with Geyser',
-    tag: 'Hygiene Standard',
-    property: 'Deep Cleaned Daily'
-  },
-  {
     src: '/images/pgs/sorath-boys-3/sorath-boys-3-bedroom-01.webp',
     title: 'Spacious 3-Sharing Room',
     tag: 'Sorath Boys 3',
@@ -69,10 +81,10 @@ export default function MovingPhotoTicker() {
         <div>
           <div className="inline-flex items-center space-x-2 px-3 py-1 bg-amber-400/20 border border-amber-400/30 rounded-full text-amber-300 text-xs font-bold uppercase tracking-wider mb-1">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>100% Verified Physical Tour Records</span>
+            <span>Actual Property Photos</span>
           </div>
           <h3 className="text-xl sm:text-2xl font-black text-white">
-            Living Spaces, Sanitized Mess & Resident Amenities
+            Rooms, Dining Halls & Resident Facilities
           </h3>
         </div>
 

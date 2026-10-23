@@ -30,10 +30,10 @@ export const PROPERTIES: Property[] = [
       'Elevator, 100% power generator backup & daily professional housekeeping'
     ],
     pros: [
-      '5-minute walk (400m) to Stadium Metro Station',
+      '3-minute walk (200m) to Stadium Metro Station',
       '4-time gourmet daily dining with hot evening snacks & tea',
       'In-house private mini-theatre / Tokiz room for weekend movies',
-      'Pin-drop silent study library for CEPT & competitive exam prep',
+      'Pin-drop silent study room for CEPT & competitive exam prep',
       'Fingerprint biometric locks on main doors with 24/7 CCTV',
       '100% generator power backup with zero power interruption'
     ],
@@ -68,7 +68,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 18000,
         priceDisplay: '₹18,000 / mo',
         notes: 'Air-conditioned room with personalized lockable wardrobes & study lights',
-        image: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-02.webp'
+        image: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-luxury-02.webp'
       },
       {
         sharing: 4,
@@ -77,7 +77,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 16000,
         priceDisplay: '₹16,000 / mo',
         notes: 'Comfortable AC room with individual storage & ergonomic study chairs',
-        image: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-01.webp'
+        image: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-luxury-01.webp'
       },
       {
         sharing: 5,
@@ -110,7 +110,7 @@ export const PROPERTIES: Property[] = [
       'Open Sky Terrace'
     ],
     landmarks: [
-      { name: 'Stadium Metro Station', category: 'transit', distanceKm: '0.4 km', travelTime: '5 min walk' },
+      { name: 'Stadium Metro Station', category: 'transit', distanceKm: '0.2 km', travelTime: '2 min walk' },
       { name: 'Gujarat University', category: 'college', distanceKm: '1.8 km', travelTime: '6 min drive' },
       { name: 'CEPT University', category: 'college', distanceKm: '1.4 km', travelTime: '5 min drive' },
       { name: 'LD College of Engineering', category: 'college', distanceKm: '2.1 km', travelTime: '7 min drive' },
@@ -121,9 +121,24 @@ export const PROPERTIES: Property[] = [
     images: [
       {
         src: '/images/pgs/luxora-boys-1/luxora-boys-1-hero.webp',
-        alt: 'Luxora Boys PG 1 Exterior facade at Stadium Six Road Navrangpura',
+        alt: 'Luxora Boys PG 1 Exterior facade with official signage at Stadium Six Road Navrangpura',
         category: 'hero',
         isHero: true
+      },
+      {
+        src: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-luxury-01.webp',
+        alt: 'Luxora Boys PG 1 Executive Luxury Air-Conditioned Suite with teak wooden beds',
+        category: 'bedroom'
+      },
+      {
+        src: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-luxury-02.webp',
+        alt: 'Luxora Boys PG 1 Premium Air-Conditioned Bedroom with window and study desks',
+        category: 'bedroom'
+      },
+      {
+        src: '/images/pgs/luxora-boys-1/luxora-boys-1-corridor-01.webp',
+        alt: 'Luxora Boys PG 1 Modern Luxury Corridor with Keyless Biometric Doors',
+        category: 'common'
       },
       {
         src: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-01.webp',
@@ -408,7 +423,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 8500,
         priceDisplay: '₹8,500 / mo',
         notes: 'Budget-friendly Non-AC room with individual cot, mattress & locker',
-        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-01.webp'
+        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-05.webp'
       },
       {
         sharing: 4,
@@ -417,7 +432,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 9000,
         priceDisplay: '₹9,000 / mo',
         notes: 'Well-ventilated room with ample natural lighting & personal wardrobe',
-        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-02.webp'
+        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-06.webp'
       },
       {
         sharing: 5,
@@ -435,7 +450,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 9500,
         priceDisplay: '₹9,500 / mo',
         notes: 'Comfortable air-conditioned sharing with attached washroom access',
-        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-02.webp'
+        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-04.webp'
       },
       {
         sharing: 2,
@@ -444,7 +459,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 10000,
         priceDisplay: '₹10,000 / mo',
         notes: 'Semi-private 2-sharing room with air conditioner & study table',
-        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-01.webp'
+        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-02.webp'
       },
       {
         sharing: 3,
@@ -453,7 +468,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 10500,
         priceDisplay: '₹10,500 / mo',
         notes: 'Top-tier 3-sharing AC room with premium ventilation and wardrobes',
-        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-02.webp'
+        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-03.webp'
       }
     ],
     amenities: [
@@ -588,7 +603,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 9000,
         priceDisplay: '₹9,000 / mo',
         notes: 'Spacious Non-AC room with dedicated wardrobes',
-        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-02.webp'
+        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-01.webp'
       },
       {
         sharing: 2,
@@ -597,7 +612,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 9000,
         priceDisplay: '₹9,000 / mo',
         notes: 'Cozy 2-sharing room offering quiet study environment',
-        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-01.webp'
+        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-02.webp'
       },
       {
         sharing: 3,
