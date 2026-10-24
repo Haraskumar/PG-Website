@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import WelcomePopupModal from '@/components/home/WelcomePopupModal';
 import Hero from '@/components/home/Hero';
 import MovingPhotoTicker from '@/components/home/MovingPhotoTicker';
 import PropertyCard from '@/components/property/PropertyCard';
@@ -26,6 +27,9 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col">
+      {/* Client Entrance Welcome Modal (2.5s Auto-Dismiss with Dual Collection Contrast) */}
+      <WelcomePopupModal />
+
       {/* 1. Hero Section with Student Hook & Dual Brand Comparison */}
       <Hero />
 
@@ -36,26 +40,26 @@ export default function HomePage() {
       <StatsBanner />
 
       {/* 4. Featured Accommodations (Luxora First, then Sorath) */}
-      <section className="py-20 bg-slate-50 border-b border-slate-200">
+      <section className="py-20 theme-bg-gradient border-b border-white/20 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
             <div>
-              <div className="inline-flex items-center space-x-2 px-3 py-1 bg-amber-100 border border-amber-300 rounded-full text-amber-900 text-xs font-bold uppercase tracking-wider mb-2">
-                <Sparkles className="w-3.5 h-3.5 text-amber-700" />
+              <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 bg-white/20 backdrop-blur-md border border-white/30 rounded-full text-white text-xs font-bold uppercase tracking-wider mb-2 shadow-sm">
+                <Sparkles className="w-3.5 h-3.5 text-amber-300" />
                 <span>Verified Accommodations</span>
               </div>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight drop-shadow-sm">
                 Featured Student & Executive PGs
               </h2>
-              <p className="text-slate-600 text-sm sm:text-base mt-2">
+              <p className="text-blue-100 text-sm sm:text-base mt-2 font-medium">
                 Flagship locations in Navrangpura, Naranpura, and Vijay Cross Road.
               </p>
             </div>
 
             <Link
               href="/pgs"
-              className="inline-flex items-center px-5 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs transition-colors self-start md:self-auto"
+              className="inline-flex items-center px-5 py-3 rounded-xl bg-slate-950 hover:bg-slate-900 text-white font-bold text-xs transition-colors self-start md:self-auto shadow-xl border border-white/10"
             >
               <span>Explore All 7 Properties</span>
               <ChevronRight className="w-4 h-4 ml-1.5 text-amber-400" />
@@ -71,10 +75,10 @@ export default function HomePage() {
           <div className="mt-12 text-center">
             <Link
               href="/pgs"
-              className="inline-flex items-center space-x-2 text-xs font-bold text-slate-600 hover:text-amber-600 transition-colors"
+              className="inline-flex items-center space-x-2 text-xs font-bold text-blue-100 hover:text-white transition-colors bg-slate-950/40 backdrop-blur-md px-4 py-2 rounded-full border border-white/20"
             >
               <span>Looking for specific sharing options or lower budget tiers?</span>
-              <span className="underline font-extrabold text-slate-900">Use our instant filter →</span>
+              <span className="underline font-extrabold text-white">Use our instant filter →</span>
             </Link>
           </div>
 

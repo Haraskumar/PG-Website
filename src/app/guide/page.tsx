@@ -10,19 +10,19 @@ export const metadata: Metadata = {
 
 export default function GuidePage() {
   return (
-    <div className="py-12 sm:py-16 bg-slate-50 min-h-screen">
+    <div className="py-12 sm:py-16 theme-bg-gradient min-h-screen">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
         <div className="text-center mb-14">
-          <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 bg-indigo-50 border border-indigo-200 rounded-full text-indigo-700 text-xs font-bold uppercase tracking-wider mb-3">
-            <BookOpen className="w-3.5 h-3.5" />
+          <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 bg-white/20 backdrop-blur-md border border-white/30 rounded-full text-white text-xs font-bold uppercase tracking-wider mb-3 shadow-sm">
+            <BookOpen className="w-3.5 h-3.5 text-cyan-200" />
             <span>Ahmedabad Student Handbook</span>
           </div>
-          <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
+          <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight drop-shadow-sm">
             Navrangpura Student Life & Area Guide
           </h1>
-          <p className="text-slate-600 text-sm sm:text-base mt-3">
+          <p className="text-blue-100 text-sm sm:text-base mt-3 font-medium">
             Moving to Ahmedabad for your education or job? Here is everything you need to know about navigating the city, choosing your PG, and enjoying student life.
           </p>
         </div>

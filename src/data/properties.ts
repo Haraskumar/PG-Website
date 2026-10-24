@@ -263,7 +263,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 16000,
         priceDisplay: '₹16,000 / mo',
         notes: 'Air-conditioned 3-bed room with individual study lamps & storage',
-        image: '/images/pgs/luxora-girls-1/luxora-girls-1-bedroom-02.webp'
+        image: '/images/pgs/luxora-girls-1/luxora-girls-1-bedroom-03.webp'
       },
       {
         sharing: 4,
@@ -272,7 +272,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 14000,
         priceDisplay: '₹14,000 / mo',
         notes: 'Spacious 4-sharing setup with personal lockers & attached bath',
-        image: '/images/pgs/luxora-girls-1/luxora-girls-1-bedroom-01.webp'
+        image: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-luxury-01.webp'
       },
       {
         sharing: 5,

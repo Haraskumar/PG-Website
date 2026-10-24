@@ -3,19 +3,19 @@ import { Star, Quote, Award } from 'lucide-react';
 
 export default function TestimonialsSection() {
   return (
-    <section className="py-20 bg-slate-50 border-t border-slate-200/80">
+    <section className="py-20 theme-bg-gradient border-t border-white/20 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 bg-amber-50 border border-amber-200 rounded-full text-amber-800 text-xs font-bold uppercase tracking-wider mb-3">
-            <Award className="w-3.5 h-3.5 text-amber-600" />
+          <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 bg-white/20 backdrop-blur-md border border-white/30 rounded-full text-white text-xs font-bold uppercase tracking-wider mb-3 shadow-sm">
+            <Award className="w-3.5 h-3.5 text-amber-300" />
             <span>Resident Reviews</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight drop-shadow-sm">
             What Students & Parents Say
           </h2>
-          <p className="text-slate-600 text-sm sm:text-base mt-2">
+          <p className="text-blue-100 text-sm sm:text-base mt-2 font-medium">
             Real feedback from students studying at CEPT, Gujarat University, and LD College.
           </p>
         </div>

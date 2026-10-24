@@ -90,7 +90,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${plusJakarta.variable} ${cinzel.variable}`}>
-      <body className="min-h-screen flex flex-col font-sans bg-white text-slate-900 antialiased selection:bg-amber-400 selection:text-slate-950">
+      <body className="min-h-screen flex flex-col font-sans theme-bg-gradient text-slate-900 antialiased selection:bg-amber-400 selection:text-slate-950">
         <JsonLd />
         <Navbar />
         <main className="flex-grow">{children}</main>

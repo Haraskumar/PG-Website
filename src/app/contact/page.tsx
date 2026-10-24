@@ -41,7 +41,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen theme-bg-gradient">
       
       {/* Dark Hero Banner */}
       <div className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 py-16 sm:py-20 border-b border-slate-800 relative overflow-hidden">

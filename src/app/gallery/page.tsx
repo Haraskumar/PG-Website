@@ -84,19 +84,19 @@ export default function GalleryPage() {
   const activeLightboxImage = lightboxIndex !== null ? filteredImages[lightboxIndex] : null;
 
   return (
-    <div className="py-12 sm:py-16 bg-slate-50 min-h-screen">
+    <div className="py-12 sm:py-16 theme-bg-gradient min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 bg-amber-100/80 border border-amber-300 rounded-full text-amber-900 text-xs font-bold uppercase tracking-wider mb-3">
-            <Camera className="w-3.5 h-3.5 text-amber-700" />
+          <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 bg-white/20 backdrop-blur-md border border-white/30 rounded-full text-white text-xs font-bold uppercase tracking-wider mb-3 shadow-sm">
+            <Camera className="w-3.5 h-3.5 text-amber-300" />
             <span>Verified Visual Tour</span>
           </div>
-          <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
+          <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight drop-shadow-sm">
             Property Photo Gallery
           </h1>
-          <p className="text-slate-600 text-sm sm:text-base mt-3">
+          <p className="text-blue-100 text-sm sm:text-base mt-3 font-medium">
             100% genuine photographic records of our furnished rooms, attached washrooms, hygienic dining halls, and study spaces in Ahmedabad. Click any photo to expand.
           </p>
         </div>
@@ -132,7 +132,7 @@ export default function GalleryPage() {
             <button
               key={idx}
               onClick={() => setLightboxIndex(idx)}
-              className="group bg-white rounded-3xl overflow-hidden border border-slate-200/80 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col text-left w-full"
+              className="group wood-card-bg rounded-3xl overflow-hidden border-2 border-amber-900/25 shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col text-left w-full"
             >
               <div className="relative h-64 w-full overflow-hidden bg-slate-900">
                 <Image
@@ -157,19 +157,19 @@ export default function GalleryPage() {
                 </div>
               </div>
 
-              <div className="p-5 flex-1 flex flex-col justify-between">
+              <div className="p-5 flex-1 flex flex-col justify-between wood-card-bg">
                 <div>
-                  <h3 className="text-sm font-bold text-slate-900 mb-1">{img.propertyName}</h3>
-                  <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed">
+                  <h3 className="text-sm font-black text-slate-950 mb-1">{img.propertyName}</h3>
+                  <p className="text-xs text-slate-800 font-medium line-clamp-2 leading-relaxed">
                     {img.alt}
                   </p>
                 </div>
 
-                <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+                <div className="mt-4 pt-3 border-t border-amber-900/20 flex items-center justify-between">
                   <Link
                     href={`/pgs/${img.propertySlug}`}
                     onClick={(e) => e.stopPropagation()}
-                    className="text-xs font-bold text-amber-600 hover:text-amber-700 flex items-center"
+                    className="text-xs font-black text-amber-950 hover:text-amber-800 flex items-center bg-white/70 px-3 py-1.5 rounded-lg border border-amber-900/15 shadow-2xs"
                   >
                     <span>View Property Details</span>
                     <ChevronRight className="w-3.5 h-3.5 ml-1" />

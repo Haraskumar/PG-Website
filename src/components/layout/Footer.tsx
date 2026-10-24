@@ -45,7 +45,7 @@ export default function Footer() {
                 className="px-6 py-3.5 bg-amber-400 hover:bg-amber-300 text-luxora-900 font-bold text-sm rounded-xl transition-all shadow-lg shadow-amber-400/20 flex items-center"
               >
                 <Phone className="w-4 h-4 mr-2" />
-                Call {CONTACTS.primaryContactName}
+                Call Us
               </a>
               <a
                 href={`https://wa.me/${CONTACTS.whatsappNumber}`}
@@ -68,7 +68,7 @@ export default function Footer() {
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 bg-white rounded-xl p-1 border border-amber-400/40">
                 <Image
-                  src="/images/brand/luxora-logo.svg"
+                  src="/images/brand/luxora-logo.webp"
                   alt="Luxora Logo"
                   width={48}
                   height={48}
@@ -112,7 +112,7 @@ export default function Footer() {
                 className="flex items-center text-sm text-slate-300 hover:text-amber-400 transition-colors"
               >
                 <Phone className="w-4 h-4 mr-2 text-teal-400 shrink-0" />
-                <span>Manager: <strong>{CONTACTS.secondaryPhoneDisplay}</strong> ({CONTACTS.secondaryContactName})</span>
+                <span>Contact: <strong>{CONTACTS.secondaryPhoneDisplay}</strong> ({CONTACTS.secondaryContactName})</span>
               </a>
               <a
                 href={`mailto:${CONTACTS.email}`}

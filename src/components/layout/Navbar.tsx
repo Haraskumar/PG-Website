@@ -30,7 +30,7 @@ export default function Navbar() {
               className="hover:text-amber-400 flex items-center transition-colors"
             >
               <Phone className="w-3 h-3 mr-1 text-amber-400" />
-              {CONTACTS.primaryPhoneDisplay} ({CONTACTS.primaryContactName})
+              {CONTACTS.primaryPhoneDisplay} ({'Call at PG'})
             </a>
             <span className="text-slate-600">|</span>
             <a
@@ -56,7 +56,7 @@ export default function Navbar() {
             <div className="flex items-center space-x-2">
               <div className="relative w-10 h-10 rounded-lg overflow-hidden border border-amber-300/60 shadow-sm bg-white p-0.5">
                 <Image
-                  src="/images/brand/luxora-logo.svg"
+                  src="/images/brand/luxora-logo.webp"
                   alt="Luxora PG Logo"
                   width={40}
                   height={40}
@@ -206,7 +206,7 @@ export default function Navbar() {
               className="inline-flex items-center px-4 py-2.5 rounded-xl text-sm font-bold text-luxora-900 bg-amber-400 hover:bg-amber-300 transition-all shadow-sm shadow-amber-400/20 active:scale-95"
             >
               <Phone className="w-4 h-4 mr-2 text-luxora-900" />
-              Call Dhaval Bhai
+              Call PG/Enqiry
             </a>
           </div>
 

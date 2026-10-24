@@ -10,12 +10,12 @@ interface Stat {
 }
 
 const STATS: Stat[] = [
-  { value: 400, suffix: '+', label: 'Student Residents', emoji: '🎓' },
+  { value: 300, suffix: '+', label: 'Student Residents', emoji: '🎓' },
   { value: 7, suffix: '', label: 'PG Properties', emoji: '🏠' },
-  { value: 5, suffix: '+', label: 'Years Operating', emoji: '🗓️' },
-  { value: 1500, suffix: '+', label: 'Meals Served Daily', emoji: '🍽️' },
+  { value: 10, suffix: '+', label: 'Years Operating', emoji: '🗓️' },
+  { value: 1000, suffix: '+', label: 'Meals Served Daily', emoji: '🍽️' },
   { value: 150, suffix: ' Mbps', label: 'Dedicated Wi-Fi Speed', emoji: '⚡' },
-  { value: 0, suffix: '', label: 'Brokerage Fees', emoji: '✅' },
+  { value: 100, suffix: '%', label: 'Safe-Neat-Clean', emoji: '✅' },
 ];
 
 function CountUp({ target, suffix, active }: { target: number; suffix: string; active: boolean }) {

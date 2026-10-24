@@ -11,16 +11,11 @@ interface TickerPhoto {
   property: string;
 }
 
-const TICKER_PHOTOS: TickerPhoto[] = [
+// Row 1: Moves Left (<-)
+const ROW_1_PHOTOS: TickerPhoto[] = [
   {
     src: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-luxury-01.webp',
     title: 'Executive Luxury AC Suite',
-    tag: 'Luxora Boys 1',
-    property: 'Stadium Six Road'
-  },
-  {
-    src: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-luxury-02.webp',
-    title: 'Spacious AC Suite with Window',
     tag: 'Luxora Boys 1',
     property: 'Stadium Six Road'
   },
@@ -29,12 +24,6 @@ const TICKER_PHOTOS: TickerPhoto[] = [
     title: 'Designer Corridor & Biometric Access',
     tag: 'Luxora Boutique Living',
     property: 'Keyless Electronic Entry'
-  },
-  {
-    src: '/images/pgs/luxora-boys-1/luxora-boys-1-hero.webp',
-    title: 'Luxora PG Official Building Facade',
-    tag: 'Luxora Boys 1',
-    property: 'Stadium Six Road, Navrangpura'
   },
   {
     src: '/images/pgs/luxora-girls-1/luxora-girls-1-hero.webp',
@@ -61,16 +50,68 @@ const TICKER_PHOTOS: TickerPhoto[] = [
     property: 'Ajay Center, Vijay XR'
   },
   {
-    src: '/images/pgs/luxora-girls-1/luxora-girls-1-terrace-01.webp',
-    title: 'Rooftop Lounge & Sky Terrace',
-    tag: 'Open Spaces',
-    property: 'Naranpura Colony'
+    src: '/images/pgs/luxora-boys-1/luxora-boys-1-common-area-01.webp',
+    title: 'Lounge & Indoor Games Zone',
+    tag: 'Community Space',
+    property: 'Recreation Floor'
   },
   {
     src: '/images/pgs/sorath-boys-3/sorath-boys-3-bedroom-01.webp',
     title: 'Spacious 3-Sharing Room',
     tag: 'Sorath Boys 3',
     property: 'Pallavi Tower 1'
+  }
+];
+
+// Row 2: Moves Right (->) in Opposite Direction
+const ROW_2_PHOTOS: TickerPhoto[] = [
+  {
+    src: '/images/pgs/luxora-boys-1/luxora-boys-1-hero.webp',
+    title: 'Luxora PG Official Building Facade',
+    tag: 'Luxora Boys 1',
+    property: 'Stadium Six Road, Navrangpura'
+  },
+  {
+    src: '/images/pgs/luxora-girls-1/luxora-girls-1-terrace-01.webp',
+    title: 'Rooftop Lounge & Sky Terrace',
+    tag: 'Open Spaces',
+    property: 'Naranpura Colony'
+  },
+  {
+    src: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-luxury-02.webp',
+    title: 'Spacious AC Suite with Window',
+    tag: 'Luxora Boys 1',
+    property: 'Stadium Six Road'
+  },
+  {
+    src: '/images/pgs/luxora-girls-1/luxora-girls-1-common-area-01.webp',
+    title: 'Silent Study & Discussion Area',
+    tag: 'Luxora Girls 1',
+    property: 'Dedicated Reading Desks'
+  },
+  {
+    src: '/images/pgs/sorath-boys-1/sorath-boys-1-common-area-01.webp',
+    title: 'Group Study & TV Common Hall',
+    tag: 'Sorath Boys 1',
+    property: 'Vijay Cross Road'
+  },
+  {
+    src: '/images/pgs/luxora-girls-1/luxora-girls-1-bedroom-01.webp',
+    title: 'Premium Female AC Suite',
+    tag: 'Luxora Girls 1',
+    property: 'SP Statue Circle'
+  },
+  {
+    src: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-02.webp',
+    title: 'Furnished Twin Sharing Stay',
+    tag: 'Sorath Boys 1',
+    property: 'Ajay Center'
+  },
+  {
+    src: '/images/pgs/sorath-girls-1/sorath-girls-1-bedroom-02.webp',
+    title: 'Well-Lit Study Atmosphere',
+    tag: 'Sorath Girls 1',
+    property: 'Maharaja Palace'
   }
 ];
 
@@ -98,18 +139,18 @@ export default function MovingPhotoTicker() {
         </Link>
       </div>
 
-      {/* Infinite Smooth Moving Marquee Container */}
-      <div className="relative w-full overflow-hidden">
-        {/* Soft edge fades */}
+      {/* Dual Row Moving Marquee Container with Opposite Directions */}
+      <div className="relative w-full overflow-hidden space-y-4">
+        {/* Soft edge fades across both rows */}
         <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-slate-900 to-transparent z-10 pointer-events-none" />
         <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-slate-900 to-transparent z-10 pointer-events-none" />
 
-        <div className="animate-marquee py-2 flex gap-5">
-          {/* Loop twice for seamless infinite ticker */}
-          {[...TICKER_PHOTOS, ...TICKER_PHOTOS].map((photo, index) => (
+        {/* Row 1: Moves Left (<-) */}
+        <div className="animate-marquee flex gap-4 sm:gap-5">
+          {[...ROW_1_PHOTOS, ...ROW_1_PHOTOS].map((photo, index) => (
             <div
-              key={index}
-              className="relative w-72 sm:w-80 h-52 sm:h-56 rounded-2xl overflow-hidden shrink-0 group border border-slate-800 shadow-xl bg-slate-950 transition-transform duration-300 hover:scale-[1.03]"
+              key={`row1-${index}`}
+              className="relative w-72 sm:w-80 h-48 sm:h-52 rounded-2xl overflow-hidden shrink-0 group border border-slate-800 shadow-xl bg-slate-950 transition-transform duration-300 hover:scale-[1.03]"
             >
               <Image
                 src={photo.src}
@@ -131,6 +172,40 @@ export default function MovingPhotoTicker() {
                   {photo.title}
                 </div>
                 <div className="text-[11px] text-amber-300/90 font-medium mt-0.5">
+                  📍 {photo.property}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Row 2: Moves Right (->) in Opposite Direction */}
+        <div className="animate-marquee-reverse flex gap-4 sm:gap-5">
+          {[...ROW_2_PHOTOS, ...ROW_2_PHOTOS].map((photo, index) => (
+            <div
+              key={`row2-${index}`}
+              className="relative w-72 sm:w-80 h-48 sm:h-52 rounded-2xl overflow-hidden shrink-0 group border border-slate-800 shadow-xl bg-slate-950 transition-transform duration-300 hover:scale-[1.03]"
+            >
+              <Image
+                src={photo.src}
+                alt={photo.title}
+                fill
+                sizes="320px"
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent pointer-events-none" />
+              
+              <div className="absolute top-3 left-3 z-10">
+                <span className="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold bg-teal-400 text-slate-950 shadow-md uppercase tracking-wider">
+                  {photo.tag}
+                </span>
+              </div>
+
+              <div className="absolute bottom-3 left-3 right-3 z-10 text-white">
+                <div className="text-sm font-extrabold text-white drop-shadow">
+                  {photo.title}
+                </div>
+                <div className="text-[11px] text-teal-300/90 font-medium mt-0.5">
                   📍 {photo.property}
                 </div>
               </div>

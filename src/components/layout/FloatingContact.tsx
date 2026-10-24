@@ -24,7 +24,7 @@ export default function FloatingContact({ currentPropertySlug, currentPropertyNa
           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
           <span className="font-semibold text-slate-200">Admissions Desk Active</span>
           <span className="text-amber-400">•</span>
-          <span className="text-amber-300 font-bold">Zero Brokerage</span>
+          <span className="text-amber-300 font-bold">Rooms Filling Fast</span>
         </div>
 
         {/* Action Buttons Row */}

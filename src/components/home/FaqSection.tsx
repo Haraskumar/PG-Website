@@ -13,19 +13,19 @@ export default function FaqSection() {
   };
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 theme-bg-gradient border-t border-white/20 relative">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
         <div className="text-center mb-14">
-          <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 bg-slate-100 rounded-full text-slate-700 text-xs font-bold uppercase tracking-wider mb-3">
-            <HelpCircle className="w-3.5 h-3.5 text-amber-500" />
+          <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 bg-white/20 backdrop-blur-md border border-white/30 rounded-full text-white text-xs font-bold uppercase tracking-wider mb-3 shadow-sm">
+            <HelpCircle className="w-3.5 h-3.5 text-amber-300" />
             <span>Admissions & Stay Guidelines</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight drop-shadow-sm">
             Frequently Asked Questions
           </h2>
-          <p className="text-slate-600 text-sm sm:text-base mt-2">
+          <p className="text-blue-100 text-sm sm:text-base mt-2 font-medium">
             Quick answers about admission procedures, food timings, security, and room rules.
           </p>
         </div>
@@ -74,7 +74,7 @@ export default function FaqSection() {
               className="px-4 py-2 bg-slate-900 text-white rounded-xl text-xs font-bold hover:bg-slate-800 transition-colors flex items-center"
             >
               <Phone className="w-3.5 h-3.5 mr-1.5 text-amber-400" />
-              Call Dhaval Bhai
+              Call PG
             </a>
             <a
               href={`https://wa.me/${CONTACTS.whatsappNumber}`}

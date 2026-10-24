@@ -45,7 +45,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto font-normal leading-relaxed">
-            Safe, hygienic and food-inclusive student & executive PGs across <strong>Navrangpura</strong> and <strong>Naranpura</strong>. Walking distance to Gujarat University, CEPT, and LD College.
+            Safe, hygienic and food-inclusive student & executive PGs across <strong>Navrangpura</strong> and <strong>Naranpura</strong>. Walking distance to Gujarat University, CEPT, and LD College/ CA Navkar Classes.
           </p>
 
           {/* Quick CTA Buttons */}
@@ -65,7 +65,7 @@ export default function Hero() {
               className="px-8 py-4 bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm rounded-2xl transition-all shadow-xl shadow-emerald-600/20 flex items-center active:scale-95"
             >
               <MessageCircle className="w-4 h-4 mr-2" />
-              <span>WhatsApp Dhaval Bhai</span>
+              <span>WhatsApp PG</span>
             </a>
 
             <a
@@ -89,7 +89,7 @@ export default function Hero() {
                 <div className="flex items-center space-x-2">
                   <div className="w-9 h-9 bg-white rounded-lg p-1 border border-amber-400">
                     <Image
-                      src="/images/brand/luxora-logo.svg"
+                      src="/images/brand/luxora-logo.webp"
                       alt="Luxora Logo"
                       width={36}
                       height={36}

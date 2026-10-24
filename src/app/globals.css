@@ -9,10 +9,34 @@
 
 body {
   color: #0f172a;
-  background-color: #F8FAFC;
+  background-color: #f5f5f0;
+  background-image: url('/images/theme-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* User-Requested Theme Background Utility */
+.theme-bg-gradient {
+  background-color: #f5f5f0;
+  background-image: url('/images/theme-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* User-Requested Wood-Land Natural Timber Card Theme */
+.wood-card-bg {
+  background-color: #f2e3c6;
+  background-image: url('/images/wood-texture.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Custom smooth scrolling */
