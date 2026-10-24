@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import { LUXORA_MEAL_INFO, SORATH_MEAL_INFO } from '@/data/food-menu';
-import { Utensils, CheckCircle2, Sparkles, Shield, Clock } from 'lucide-react';
+import { Utensils, CheckCircle2, Sparkles, Shield, Clock, ExternalLink } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Food & Dining Menu | 4-Time & 3-Time Wholesome Meals Included',
@@ -104,17 +105,56 @@ export default function FoodMenuPage() {
 
           {/* 1. LUXORA 7-Day Weekly Menu Table */}
           <div className="bg-white rounded-3xl p-6 sm:p-10 border border-slate-200 shadow-md mb-16">
-            <div className="flex items-center space-x-3 mb-6">
-              <div className="p-2.5 bg-amber-100 rounded-xl text-amber-700">
-                <Sparkles className="w-6 h-6" />
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+              <div className="flex items-center space-x-3">
+                <div className="p-2.5 bg-amber-100 rounded-xl text-amber-700">
+                  <Sparkles className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-black text-slate-900">
+                    Luxora PG: Complete 7-Day Gourmet Menu
+                  </h3>
+                  <p className="text-xs text-slate-500">
+                    Breakfast • Wholesome Lunch • Evening Hot Snack & Tea • Delicious Dinner
+                  </p>
+                </div>
               </div>
-              <div>
-                <h3 className="text-2xl font-black text-slate-900">
-                  Luxora PG: Complete 7-Day Gourmet Menu
-                </h3>
-                <p className="text-xs text-slate-500">
-                  Breakfast • Wholesome Lunch • Evening Hot Snack & Tea • Delicious Dinner
-                </p>
+
+              <a
+                href="/images/food-menu/luxora-gourmet-menu.jpg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-xs font-bold text-amber-900 bg-amber-100/80 hover:bg-amber-100 px-3.5 py-2 rounded-xl border border-amber-300 transition-colors shrink-0"
+              >
+                <ExternalLink className="w-3.5 h-3.5 mr-1.5" />
+                <span>View Full Menu Card</span>
+              </a>
+            </div>
+
+            {/* Official Visual Menu Card Image */}
+            <div className="mb-8 rounded-2xl overflow-hidden border border-amber-300/60 shadow-sm bg-slate-950/5 group relative">
+              <div className="relative w-full aspect-[16/10] sm:aspect-[16/9] max-h-[550px]">
+                <Image
+                  src="/images/food-menu/luxora-gourmet-menu.webp"
+                  alt="Luxora PG Complete 7-Day Gourmet Menu - Breakfast, Lunch, Evening Snack & Tea, Dinner"
+                  fill
+                  sizes="(max-width: 1200px) 100vw, 1200px"
+                  className="object-contain"
+                  priority
+                />
+              </div>
+              <div className="p-3 bg-amber-50/90 border-t border-amber-200/80 flex flex-wrap items-center justify-between gap-2 text-xs">
+                <span className="font-semibold text-slate-700">
+                  📋 Official 7-Day Gourmet Menu Schedule (Nutritious, Homely & Freshly Prepared)
+                </span>
+                <a
+                  href="/images/food-menu/luxora-gourmet-menu.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold text-amber-800 hover:text-amber-950 underline"
+                >
+                  Click to open high-resolution image ↗
+                </a>
               </div>
             </div>
 

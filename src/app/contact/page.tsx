@@ -254,11 +254,10 @@ export default function ContactPage() {
                 
                 <div>
                   <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-                    Your Name
+                    Your Name (Optional)
                   </label>
                   <input
                     type="text"
-                    required
                     placeholder="e.g. Priyanshu Dave"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
@@ -268,11 +267,10 @@ export default function ContactPage() {
 
                 <div>
                   <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">
-                    Contact Phone Number
+                    Contact Phone Number (Optional)
                   </label>
                   <input
                     type="tel"
-                    required
                     placeholder="e.g. 9876543210"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}

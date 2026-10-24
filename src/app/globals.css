@@ -9,7 +9,7 @@
 
 body {
   color: #0f172a;
-  background-color: #f5f5f0;
+  background-color: #2b0407;
   background-image: url('/images/theme-bg.png');
   background-size: cover;
   background-position: center;
@@ -22,7 +22,7 @@ body {
 
 /* User-Requested Theme Background Utility */
 .theme-bg-gradient {
-  background-color: #f5f5f0;
+  background-color: #2b0407;
   background-image: url('/images/theme-bg.png');
   background-size: cover;
   background-position: center;

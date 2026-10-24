@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { CONTACTS } from '@/data/contacts';
-import { Phone, MessageCircle, Menu, X, Sparkles, Shield, ChevronDown } from 'lucide-react';
+import { Phone, MessageCircle, Menu, X, Sparkles, Shield, ChevronDown, Compass } from 'lucide-react';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -185,10 +185,11 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href="/guide"
-              className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-amber-600 rounded-lg transition-colors"
+              href="/ahmedabad-guide"
+              className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-amber-600 rounded-lg transition-colors flex items-center"
             >
-              Student Guide
+              <Compass className="w-3.5 h-3.5 mr-1 text-amber-500" />
+              Ahmedabad Guide
             </Link>
 
             <Link
@@ -274,11 +275,12 @@ export default function Navbar() {
             Photo Gallery
           </Link>
           <Link
-            href="/guide"
+            href="/ahmedabad-guide"
             onClick={() => setMobileMenuOpen(false)}
-            className="block px-3 py-2.5 rounded-lg text-base font-semibold text-slate-800 hover:bg-slate-100"
+            className="flex items-center px-3 py-2.5 rounded-lg text-base font-semibold text-slate-800 hover:bg-slate-100"
           >
-            Student & Area Guide
+            <Compass className="w-4 h-4 mr-2 text-amber-500" />
+            Ahmedabad & Colleges Guide
           </Link>
           <Link
             href="/contact"

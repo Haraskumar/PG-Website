@@ -162,7 +162,12 @@ export const PROPERTIES: Property[] = [
       },
       {
         src: '/images/pgs/luxora-boys-1/luxora-boys-1-common-area-01.webp',
-        alt: 'Luxora Boys PG 1 resident common lounge, study area and games zone',
+        alt: 'Luxora Boys PG 1 resident common reception lounge and quiet study area',
+        category: 'common'
+      },
+      {
+        src: '/images/pgs/luxora-boys-1/luxora-boys-1-games-zone-01.webp',
+        alt: 'Luxora Boys PG 1 PS5 gaming zone, mini home theatre and indoor entertainment lounge',
         category: 'common'
       }
     ],
@@ -263,7 +268,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 16000,
         priceDisplay: '₹16,000 / mo',
         notes: 'Air-conditioned 3-bed room with individual study lamps & storage',
-        image: '/images/pgs/luxora-girls-1/luxora-girls-1-bedroom-03.webp'
+        image: '/images/pgs/luxora-girls-1/luxora-girls-1-bedroom-01.webp'
       },
       {
         sharing: 4,

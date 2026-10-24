@@ -50,10 +50,10 @@ const ROW_1_PHOTOS: TickerPhoto[] = [
     property: 'Ajay Center, Vijay XR'
   },
   {
-    src: '/images/pgs/luxora-boys-1/luxora-boys-1-common-area-01.webp',
-    title: 'Lounge & Indoor Games Zone',
-    tag: 'Community Space',
-    property: 'Recreation Floor'
+    src: '/images/pgs/luxora-boys-1/luxora-boys-1-games-zone-01.webp',
+    title: 'Gaming Zone & Home Theatre',
+    tag: 'Luxora Entertainment',
+    property: 'FC24 & Carrom Games Zone'
   },
   {
     src: '/images/pgs/sorath-boys-3/sorath-boys-3-bedroom-01.webp',
