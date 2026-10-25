@@ -19,17 +19,19 @@ export default function GalleryPage() {
   const [selectedCategory, setSelectedCategory] = useState<string>('ALL');
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
-  // Collect all verified images across properties
-  const allImages: GalleryItem[] = PROPERTIES.flatMap((p) =>
-    p.images.map((img) => ({
-      src: img.src,
-      alt: img.alt,
-      category: img.category,
-      propertyName: p.name,
-      propertySlug: p.slug,
-      brand: p.brand,
-    }))
-  );
+  // Collect all verified images across properties (Girls PGs and Luxora Boys only)
+  const allImages: GalleryItem[] = PROPERTIES
+    .filter((p) => p.gender === 'GIRLS' || (p.brand === 'LUXORA' && p.gender === 'BOYS'))
+    .flatMap((p) =>
+      p.images.map((img) => ({
+        src: img.src,
+        alt: img.alt,
+        category: img.category,
+        propertyName: p.name,
+        propertySlug: p.slug,
+        brand: p.brand,
+      }))
+    );
 
   const categories = [
     { key: 'ALL', label: 'All Photos' },

@@ -652,7 +652,7 @@ export const PROPERTIES: Property[] = [
     hasActualPhotos: true,
     images: [
       {
-        src: '/images/pgs/sorath-boys-3/sorath-boys-3-hero.webp',
+        src: '/images/pgs/sorath-girls-1/sorath-girls-1-bedroom-01.webp',
         alt: 'Sorath Boys PG 2 Pallavi Tower building facade',
         category: 'hero',
         isHero: true
@@ -830,7 +830,7 @@ export const PROPERTIES: Property[] = [
     hasActualPhotos: true,
     images: [
       {
-        src: '/images/pgs/sorath-boys-3/sorath-boys-3-hero.webp',
+        src: '/images/pgs/sorath-girls-1/sorath-girls-1-bedroom-02.webp',
         alt: 'Sorath Boys PG 3 Room setup at Pallavi Tower 1',
         category: 'hero',
         isHero: true

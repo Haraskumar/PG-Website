@@ -44,10 +44,10 @@ const ROW_1_PHOTOS: TickerPhoto[] = [
     property: 'Beside Maharaja Palace'
   },
   {
-    src: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-01.webp',
-    title: 'Student Room with Study Desk',
-    tag: 'Sorath Boys 1',
-    property: 'Ajay Center, Vijay XR'
+    src: '/images/pgs/luxora-girls-1/luxora-girls-1-bedroom-01.webp',
+    title: 'Premium Female AC Suite',
+    tag: 'Luxora Girls 1',
+    property: 'SP Statue Circle, Naranpura'
   },
   {
     src: '/images/pgs/luxora-boys-1/luxora-boys-1-games-zone-01.webp',
@@ -56,10 +56,10 @@ const ROW_1_PHOTOS: TickerPhoto[] = [
     property: 'FC24 & Carrom Games Zone'
   },
   {
-    src: '/images/pgs/sorath-boys-3/sorath-boys-3-bedroom-01.webp',
-    title: 'Spacious 3-Sharing Room',
-    tag: 'Sorath Boys 3',
-    property: 'Pallavi Tower 1'
+    src: '/images/pgs/sorath-girls-1/sorath-girls-1-hero.webp',
+    title: 'Girls PG Beside Maharaja Palace',
+    tag: 'Sorath Girls 1',
+    property: 'Vijay Cross Road'
   }
 ];
 
@@ -90,28 +90,28 @@ const ROW_2_PHOTOS: TickerPhoto[] = [
     property: 'Dedicated Reading Desks'
   },
   {
-    src: '/images/pgs/sorath-boys-1/sorath-boys-1-common-area-01.webp',
-    title: 'Group Study & TV Common Hall',
-    tag: 'Sorath Boys 1',
-    property: 'Vijay Cross Road'
-  },
-  {
-    src: '/images/pgs/luxora-girls-1/luxora-girls-1-bedroom-01.webp',
-    title: 'Premium Female AC Suite',
-    tag: 'Luxora Girls 1',
-    property: 'SP Statue Circle'
-  },
-  {
-    src: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-02.webp',
-    title: 'Furnished Twin Sharing Stay',
-    tag: 'Sorath Boys 1',
-    property: 'Ajay Center'
+    src: '/images/pgs/luxora-boys-1/luxora-boys-1-common-area-01.webp',
+    title: 'Executive Reception & Study Lounge',
+    tag: 'Luxora Boys 1',
+    property: 'Stadium Six Road'
   },
   {
     src: '/images/pgs/sorath-girls-1/sorath-girls-1-bedroom-02.webp',
     title: 'Well-Lit Study Atmosphere',
     tag: 'Sorath Girls 1',
     property: 'Maharaja Palace'
+  },
+  {
+    src: '/images/pgs/luxora-girls-1/luxora-girls-1-bedroom-02.webp',
+    title: 'Furnished Female AC Room',
+    tag: 'Luxora Girls 1',
+    property: 'Sardar Patel Colony'
+  },
+  {
+    src: '/images/pgs/sorath-girls-1/sorath-girls-1-bedroom-03.webp',
+    title: 'Comfortable Student Sharing',
+    tag: 'Sorath Girls 1',
+    property: 'Beside Maharaja Palace'
   }
 ];
 
