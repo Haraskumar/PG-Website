@@ -45,13 +45,13 @@ export const metadata: Metadata = {
     'Student accommodation Navrangpura'
   ],
   alternates: {
-    canonical: 'https://pg-website-orpin.vercel.app/ahmedabad-guide'
+    canonical: 'https://luxorasorathpg.com/ahmedabad-guide'
   },
   openGraph: {
     title: 'Explore Ahmedabad: Colleges, Metro & Nearby Places | Luxora & Sorath',
     description:
       'Verified PG accommodations for students near Gujarat University, LD College, HL College, Navkar Institute, Metro and BRTS connectivity.',
-    url: 'https://pg-website-orpin.vercel.app/ahmedabad-guide',
+    url: 'https://luxorasorathpg.com/ahmedabad-guide',
     type: 'website'
   }
 };
@@ -68,13 +68,13 @@ export default function AhmedabadGuidePage() {
             '@type': 'ListItem',
             position: 1,
             name: 'Home',
-            item: 'https://pg-website-orpin.vercel.app/'
+            item: 'https://luxorasorathpg.com/'
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Ahmedabad Student & Location Guide',
-            item: 'https://pg-website-orpin.vercel.app/ahmedabad-guide'
+            item: 'https://luxorasorathpg.com/ahmedabad-guide'
           }
         ]
       },

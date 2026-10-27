@@ -153,7 +153,7 @@ export default function PropertyLocationMap({ property }: PropertyLocationMapPro
                 </div>
                 <div>
                   <div className="text-xs font-bold text-slate-900">{landmark.name}</div>
-                  <div className="text-[10px] text-slate-400 capitalize">{landmark.category}</div>
+                  <div className="text-[10px] text-slate-600 font-medium capitalize">{landmark.category}</div>
                 </div>
               </div>
 

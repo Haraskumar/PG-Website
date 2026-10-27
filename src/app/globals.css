@@ -30,6 +30,12 @@ body {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 768px) {
+  body, .theme-bg-gradient {
+    background-attachment: scroll;
+  }
+}
+
 /* User-Requested Wood-Land Natural Timber Card Theme */
 .wood-card-bg {
   background-color: #f2e3c6;

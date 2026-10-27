@@ -26,6 +26,9 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://luxorasorathpg.com'),
+  alternates: {
+    canonical: '/',
+  },
   title: {
     default: 'Luxora & Sorath PG Ahmedabad | Luxury & Budget Co-Living in Navrangpura',
     template: '%s | Luxora & Sorath PG Ahmedabad',
@@ -80,6 +83,10 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
   },
 };
 

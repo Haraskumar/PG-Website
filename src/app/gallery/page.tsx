@@ -131,10 +131,18 @@ export default function GalleryPage() {
         {/* Images Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredImages.map((img, idx) => (
-            <button
+            <div
               key={idx}
               onClick={() => setLightboxIndex(idx)}
-              className="group wood-card-bg rounded-3xl overflow-hidden border-2 border-amber-900/25 shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col text-left w-full"
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  setLightboxIndex(idx);
+                }
+              }}
+              className="group wood-card-bg rounded-3xl overflow-hidden border-2 border-amber-900/25 shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col text-left w-full cursor-pointer"
             >
               <div className="relative h-64 w-full overflow-hidden bg-slate-900">
                 <Image
@@ -178,7 +186,7 @@ export default function GalleryPage() {
                   </Link>
                 </div>
               </div>
-            </button>
+            </div>
           ))}
         </div>
 

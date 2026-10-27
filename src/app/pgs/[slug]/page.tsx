@@ -44,11 +44,20 @@ export async function generateMetadata({ params }: PropertyPageProps): Promise<M
     title: property.seo.metaTitle,
     description: property.seo.metaDescription,
     keywords: property.seo.keywords,
+    alternates: {
+      canonical: `https://luxorasorathpg.com/pgs/${property.slug}`,
+    },
     openGraph: {
       title: property.seo.metaTitle,
       description: property.seo.metaDescription,
       url: `https://luxorasorathpg.com/pgs/${property.slug}`,
       images: property.images.length > 0 ? [{ url: property.images[0].src }] : undefined,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: property.seo.metaTitle,
+      description: property.seo.metaDescription,
+      images: property.images.length > 0 ? [property.images[0].src] : undefined,
     },
   };
 }
@@ -66,8 +75,45 @@ export default async function PropertyDetailPage({ params }: PropertyPageProps) 
   const primaryHero = property.images.find((img) => img.isHero) || property.images[0];
   const generalWhatsappUrl = getWhatsAppBookingUrl(property.name);
 
+  const propertySchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Hostel',
+    name: property.name,
+    description: property.overview,
+    url: `https://luxorasorathpg.com/pgs/${property.slug}`,
+    telephone: CONTACTS.primaryPhone,
+    priceRange: property.priceRangeDisplay,
+    image: primaryHero ? `https://luxorasorathpg.com${primaryHero.src}` : undefined,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: property.address,
+      addressLocality: property.area,
+      addressRegion: 'Gujarat',
+      postalCode: property.pincode,
+      addressCountry: 'IN',
+    },
+    ...(property.mapCoordinates
+      ? {
+          geo: {
+            '@type': 'GeoCoordinates',
+            latitude: property.mapCoordinates.lat,
+            longitude: property.mapCoordinates.lng,
+          },
+        }
+      : {}),
+    amenityFeature: property.amenities.map((amenity) => ({
+      '@type': 'LocationFeatureSpecification',
+      name: amenity,
+      value: true,
+    })),
+  };
+
   return (
     <div className="theme-bg-gradient min-h-screen pb-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(propertySchema) }}
+      />
       
       {/* 1. Breadcrumbs & Top Bar */}
       <div

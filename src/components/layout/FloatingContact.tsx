@@ -67,8 +67,8 @@ export default function FloatingContact({ currentPropertySlug, currentPropertyNa
         </div>
       </div>
 
-      {/* Mobile Sticky Bottom Action Bar with Animated Elements */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 sm:hidden bg-slate-950/95 backdrop-blur-md border-t border-slate-800 p-2.5 px-3 shadow-2xl flex items-center justify-between gap-2">
+      {/* Mobile Sticky Bottom Action Bar with Animated Elements & Safe-Area Inset */}
+      <div className="fixed bottom-0 left-0 right-0 z-40 sm:hidden bg-slate-950/95 backdrop-blur-md border-t border-slate-800 p-2.5 px-3 pb-[max(0.625rem,env(safe-area-inset-bottom))] shadow-2xl flex items-center justify-between gap-2">
         <a
           href={`tel:${CONTACTS.primaryPhone}`}
           className="flex-1 flex items-center justify-center py-2.5 px-2 bg-slate-900 border border-slate-700 text-amber-300 rounded-xl text-xs font-bold active:scale-95 transition-transform"

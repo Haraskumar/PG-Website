@@ -121,7 +121,7 @@ export default function TransitCalculator() {
             <h3 className="text-xl sm:text-2xl font-black text-slate-900">{selectedPg.name}</h3>
 
             <div className="pt-1">
-              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2.5">
+              <h4 className="text-xs font-bold text-slate-600 uppercase tracking-wider mb-2.5">
                 Commute Distance to Major Colleges & Transit:
               </h4>
 
@@ -140,7 +140,7 @@ export default function TransitCalculator() {
                       </div>
                       <div>
                         <div className="text-xs font-bold text-slate-900">{landmark.name}</div>
-                        <div className="text-[10px] text-slate-400 capitalize">{landmark.category} Landmark</div>
+                        <div className="text-[10px] text-slate-600 font-medium capitalize">{landmark.category} Landmark</div>
                       </div>
                     </div>
 

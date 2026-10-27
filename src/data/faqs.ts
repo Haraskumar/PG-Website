@@ -14,11 +14,11 @@ export const FAQS: FAQItem[] = [
   },
   {
     q: 'Is high-speed Wi-Fi provided in every room?',
-    a: 'Yes, all our 7 PG properties feature  free commercial-grade 150 Mbps optical fiber broadband with mesh Wi-Fi access points on every floor to ensure seamless online classes, coding, streaming, and examinations.'
+    a: 'Yes, all our 7 PG properties feature free commercial-grade 150 Mbps optical fiber broadband with mesh Wi-Fi access points on every floor to ensure seamless online classes, coding, streaming, and examinations.'
   },
   {
     q: 'What security measures are in place for students and female residents?',
-    a: 'Safety is our highest priority. All properties are protected with 24/7 CCTV surveillance, restricted access, and on-site caretakers. Luxora properties additionally feature high-security fingerprint biometric door lock on main gate. For girls’ stays (Luxora Girls PG 1 in Naranpura and Sorath Girls PG 1 on Vijay Cross Road), we enforce dedicated female warden supervision.'
+    a: 'Safety is our highest priority. All properties are protected with 24/7 CCTV surveillance, restricted access, and on-site caretakers. Luxora properties additionally feature high-security fingerprint biometric door locks on main entrance gates. For girls’ stays (Luxora Girls PG 1 in Naranpura and Sorath Girls PG 1 on Vijay Cross Road), we enforce dedicated female warden supervision.'
   },
   {
     q: 'Are laundry and washing machines available?',

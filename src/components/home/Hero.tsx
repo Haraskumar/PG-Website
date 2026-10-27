@@ -31,7 +31,6 @@ export default function Hero() {
             <Award className="w-4 h-4 text-amber-400" />
             <span className="text-amber-300">LUXORA & SORATH CO-LIVING</span>
             <span className="text-slate-500">•</span>
-            <span className="text-slate-300">Direct PG Admissions • 0 Brokerage</span>
           </div>
         </div>
 
@@ -106,18 +105,17 @@ export default function Hero() {
                   </div>
                 </div>
                 <div className="text-right">
-                  <span className="inline-flex flex-col items-start text-amber-400 bg-amber-400/15 border border-amber-400/40 px-3 py-2 rounded-xl leading-tight">
-                  <span className="text-xs sm:text-sm font-black mb-1">
-                    Starting from
+                  <span className="inline-flex flex-col items-start text-amber-400 bg-amber-400/15 border border-amber-400/40 px-3 py-2 rounded-xl leading-tight shadow-xs">
+                    <span className="text-xs sm:text-sm font-black mb-1">
+                      Starting from
+                    </span>
+                    <span className="text-[10px] sm:text-xs font-bold">
+                      👧 Girls: ₹11,500/mo
+                    </span>
+                    <span className="text-[10px] sm:text-xs font-bold">
+                      👦 Boys: ₹15,000/mo
+                    </span>
                   </span>
-                  <span className="text-[10px] sm:text-xs font-bold">
-                    👧 Girls: ₹11,500/mo
-                  </span>
-                  <span className="text-[10px] sm:text-xs font-bold">
-                    👦 Boys: ₹15,000/mo
-                  </span>
-                </span>
-                  <div className="text-[10px] text-slate-400 mt-1">👧Girls: ₹11.5k+ • 👦Boys: ₹15k+</div>
                 </div>
               </div>
 

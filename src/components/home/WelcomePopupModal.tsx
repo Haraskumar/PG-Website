@@ -28,8 +28,16 @@ export default function WelcomePopupModal() {
     }, 250);
   }, []);
 
-  // Initial mount trigger (300ms delay)
+  // Initial mount trigger (300ms delay, checks sessionStorage)
   useEffect(() => {
+    try {
+      if (sessionStorage.getItem('has_seen_welcome_popup')) {
+        return;
+      }
+    } catch {
+      // Safe fallback
+    }
+
     const timer = setTimeout(() => {
       setIsOpen(true);
       startTimeRef.current = performance.now();
@@ -38,7 +46,7 @@ export default function WelcomePopupModal() {
     return () => clearTimeout(timer);
   }, []);
 
-  // 2.5s Countdown Engine with Pause-on-Touch / Hover
+  // 6s Countdown Engine with Pause-on-Touch / Hover
   useEffect(() => {
     if (!isOpen || isClosing) return;
 
@@ -150,8 +158,8 @@ export default function WelcomePopupModal() {
               </span>
             </div>
               <span className="flex flex-col text-xs sm:text-sm font-bold text-amber-900 shrink-0 leading-tight">
-              <span>👧 ₹11500/mo</span>
-              <span>👦 ₹15000/mo</span>
+              <span>👧 ₹11,500/mo</span>
+              <span>👦 ₹15,000/mo</span>
             </span>
           </Link>
 
@@ -194,7 +202,7 @@ export default function WelcomePopupModal() {
           </div>
         </div>
 
-        {/* 2.5s Auto-Dismiss Micro-Countdown Bar */}
+        {/* 6s Auto-Dismiss Micro-Countdown Bar */}
         <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-amber-950/15 overflow-hidden">
           <div
             style={{ width: `${progress}%` }}

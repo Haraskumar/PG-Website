@@ -124,6 +124,8 @@ export default function Navbar() {
               <button
                 className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-amber-600 rounded-lg flex items-center transition-colors"
                 onClick={() => setCollectionDropdownOpen(!collectionDropdownOpen)}
+                aria-expanded={collectionDropdownOpen}
+                aria-haspopup="true"
               >
                 Our Brands
                 <ChevronDown className="w-4 h-4 ml-1 text-slate-400" />
@@ -207,7 +209,7 @@ export default function Navbar() {
               className="inline-flex items-center px-4 py-2.5 rounded-xl text-sm font-bold text-luxora-900 bg-amber-400 hover:bg-amber-300 transition-all shadow-sm shadow-amber-400/20 active:scale-95"
             >
               <Phone className="w-4 h-4 mr-2 text-luxora-900" />
-              Call PG/Enqiry
+              Call PG / Enquiry
             </a>
           </div>
 

@@ -7,6 +7,16 @@ export const metadata: Metadata = {
   title: 'Food & Dining Menu | 4-Time & 3-Time Wholesome Meals Included',
   description:
     'Explore the 7-day weekly food schedule for Luxora PG (4 times daily) and Sorath PG (3 times daily) in Ahmedabad. Fresh, hygienic, and unlimited Gujarati & North Indian meals.',
+  alternates: {
+    canonical: 'https://luxorasorathpg.com/food-menu',
+  },
+  openGraph: {
+    title: 'Food & Dining Menu | 4-Time & 3-Time Wholesome Meals Included',
+    description:
+      'Explore the 7-day weekly food schedule for Luxora PG (4 times daily) and Sorath PG (3 times daily) in Ahmedabad. Fresh, hygienic, and unlimited Gujarati & North Indian meals.',
+    url: 'https://luxorasorathpg.com/food-menu',
+    type: 'website',
+  },
 };
 
 export default function FoodMenuPage() {

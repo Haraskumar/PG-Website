@@ -278,7 +278,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 14000,
         priceDisplay: '₹14,000 / mo',
         notes: 'Spacious 4-sharing setup with personal lockers & attached bath',
-        image: '/images/pgs/luxora-boys-1/luxora-boys-1-bedroom-luxury-01.webp'
+        image: '/images/pgs/luxora-girls-1/luxora-girls-1-bedroom-02.webp'
       },
       {
         sharing: 5,
@@ -430,7 +430,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 8500,
         priceDisplay: '₹8,500 / mo',
         notes: 'Budget-friendly Non-AC room with individual cot, mattress & locker',
-        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-05.webp'
+        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-01.webp'
       },
       {
         sharing: 4,
@@ -439,7 +439,7 @@ export const PROPERTIES: Property[] = [
         priceMonthly: 9000,
         priceDisplay: '₹9,000 / mo',
         notes: 'Well-ventilated room with ample natural lighting & personal wardrobe',
-        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-06.webp'
+        image: '/images/pgs/sorath-boys-1/sorath-boys-1-bedroom-02.webp'
       },
       {
         sharing: 5,
@@ -655,8 +655,8 @@ export const PROPERTIES: Property[] = [
     hasActualPhotos: true,
     images: [
       {
-        src: '/images/pgs/sorath-girls-1/sorath-girls-1-bedroom-01.webp',
-        alt: 'Sorath Boys PG 2 Pallavi Tower building facade',
+        src: '/images/pgs/sorath-boys-3/sorath-boys-3-hero.webp',
+        alt: 'Sorath Boys PG 2 Pallavi Tower co-living spaces',
         category: 'hero',
         isHero: true
       },
@@ -834,7 +834,7 @@ export const PROPERTIES: Property[] = [
     hasActualPhotos: true,
     images: [
       {
-        src: '/images/pgs/sorath-girls-1/sorath-girls-1-bedroom-02.webp',
+        src: '/images/pgs/sorath-boys-3/sorath-boys-3-hero.webp',
         alt: 'Sorath Boys PG 3 Room setup at Pallavi Tower 1',
         category: 'hero',
         isHero: true
