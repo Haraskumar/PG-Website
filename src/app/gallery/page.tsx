@@ -186,7 +186,7 @@ export default function GalleryPage() {
         <div className="mt-16 bg-white rounded-3xl p-8 border border-slate-200 text-center max-w-2xl mx-auto">
           <h3 className="text-base font-bold text-slate-900">Visiting from outside Ahmedabad?</h3>
           <p className="text-xs text-slate-500 mt-1">
-            Want to see live video walkthroughs or current vacant room videos? Connect directly with Dhaval Bhai on WhatsApp for video tours.
+            Want to see live video walkthroughs or current vacant room videos? Connect directly with PG management on WhatsApp for video tours.
           </p>
           <div className="mt-4">
             <Link

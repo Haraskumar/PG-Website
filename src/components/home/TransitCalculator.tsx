@@ -9,9 +9,10 @@ export default function TransitCalculator() {
   const [selectedPgId, setSelectedPgId] = useState(PROPERTIES[0].id);
   const selectedPg = PROPERTIES.find((p) => p.id === selectedPgId) || PROPERTIES[0];
 
-  const embedUrl = `https://maps.google.com/maps?q=${encodeURIComponent(
-    selectedPg.embedMapQuery || `${selectedPg.name} ${selectedPg.address} Ahmedabad`
-  )}&t=&z=16&ie=UTF8&iwloc=&output=embed`;
+  const cleanQuery = (selectedPg.embedMapQuery || `${selectedPg.name} ${selectedPg.address} Ahmedabad`).replace(/\+/g, ' ');
+  const embedUrl =
+    selectedPg.embedMapUrl ||
+    `https://maps.google.com/maps?q=${encodeURIComponent(cleanQuery)}&hl=en&z=16&output=embed`;
 
   return (
     <section className="py-20 theme-bg-gradient border-b border-white/20 relative">

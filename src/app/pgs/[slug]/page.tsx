@@ -197,7 +197,7 @@ export default async function PropertyDetailPage({ params }: PropertyPageProps) 
                   className="flex-1 sm:flex-none px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs text-center transition-all flex items-center justify-center shadow-lg shadow-emerald-600/30 active:scale-95"
                 >
                   <MessageCircle className="w-4 h-4 mr-1.5" />
-                  <span>WhatsApp Dhaval Bhai</span>
+                  <span>WhatsApp Inquire</span>
                 </a>
                 <a
                   href={`tel:${CONTACTS.primaryPhone}`}
@@ -655,25 +655,22 @@ export default async function PropertyDetailPage({ params }: PropertyPageProps) 
               
               <div className="flex items-center space-x-3 pb-4 border-b border-slate-100">
                 <div
-                  className={`w-12 h-12 rounded-2xl text-white font-black flex items-center justify-center text-lg shadow-sm ${
+                  className={`w-12 h-12 rounded-2xl text-white font-black flex items-center justify-center text-sm shadow-sm ${
                     isBoys ? 'bg-blue-700' : 'bg-gradient-to-r from-rose-500 to-pink-600'
                   }`}
                 >
-                  DB
+                  PG
                 </div>
                 <div>
                   <h4 className="font-extrabold text-slate-900 text-sm">
-                    {CONTACTS.primaryContactName}
+                    PG Management
                   </h4>
                   <p
                     className={`text-xs font-semibold ${
                       isBoys ? 'text-blue-700' : 'text-rose-600'
                     }`}
                   >
-                    Central PG Admission Head
-                  </p>
-                  <p className="text-[10px] text-emerald-700 font-bold">
-                    ● Direct Owner (0 Brokerage)
+                    Admissions & Support Desk
                   </p>
                 </div>
               </div>
@@ -735,7 +732,7 @@ export default async function PropertyDetailPage({ params }: PropertyPageProps) 
               <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 text-[11px] text-slate-600 space-y-1">
                 <div className="font-bold text-slate-900">Central Management Office:</div>
                 <div>{CONTACTS.office.address}</div>
-                <div>Manager: {CONTACTS.secondaryPhoneDisplay} ({CONTACTS.secondaryContactName})</div>
+                <div>Contact: {CONTACTS.secondaryPhoneDisplay}</div>
               </div>
 
             </div>

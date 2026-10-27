@@ -31,7 +31,7 @@ export default function Hero() {
             <Award className="w-4 h-4 text-amber-400" />
             <span className="text-amber-300">LUXORA & SORATH CO-LIVING</span>
             <span className="text-slate-500">•</span>
-            <span className="text-slate-300">Direct Owner Admissions • 0 Brokerage</span>
+            <span className="text-slate-300">Direct PG Admissions • 0 Brokerage</span>
           </div>
         </div>
 
@@ -106,10 +106,18 @@ export default function Hero() {
                   </div>
                 </div>
                 <div className="text-right">
-                  <span className="text-xs font-black text-amber-400 bg-amber-400/15 border border-amber-400/40 px-3 py-1 rounded-full">
-                    Starting from ₹12,000 / mo
+                  <span className="inline-flex flex-col items-start text-amber-400 bg-amber-400/15 border border-amber-400/40 px-3 py-2 rounded-xl leading-tight">
+                  <span className="text-xs sm:text-sm font-black mb-1">
+                    Starting from
                   </span>
-                  <div className="text-[10px] text-slate-400 mt-1">Girls: ₹12k+ • Boys: ₹15k+</div>
+                  <span className="text-[10px] sm:text-xs font-bold">
+                    👧 Girls: ₹11,500/mo
+                  </span>
+                  <span className="text-[10px] sm:text-xs font-bold">
+                    👦 Boys: ₹15,000/mo
+                  </span>
+                </span>
+                  <div className="text-[10px] text-slate-400 mt-1">👧Girls: ₹11.5k+ • 👦Boys: ₹15k+</div>
                 </div>
               </div>
 
@@ -152,7 +160,7 @@ export default function Hero() {
               href="/pgs?brand=LUXORA"
               className="w-full py-3.5 px-4 rounded-xl bg-amber-400 hover:bg-amber-300 text-luxora-950 font-black text-xs text-center transition-all flex items-center justify-center shadow-lg shadow-amber-400/20 active:scale-95"
             >
-              <span>Explore Luxora Luxury PGs (from ₹12,000)</span>
+              <span>Explore Luxora Luxury PGs (from ₹11,500)</span>
               <ChevronRight className="w-4 h-4 ml-1" />
             </Link>
           </div>
@@ -185,7 +193,7 @@ export default function Hero() {
                   <span className="text-xs font-black text-teal-300 bg-teal-400/15 border border-teal-400/40 px-3 py-1 rounded-full">
                     Starting from ₹8,500 / mo
                   </span>
-                  <div className="text-[10px] text-slate-400 mt-1">Boys: ₹8.5k+ • Girls: ₹9.5k+</div>
+                  <div className="text-[10px] text-slate-400 mt-1">👦Boys: ₹8.5k+ • 👧Girls: ₹9.5k+</div>
                 </div>
               </div>
 

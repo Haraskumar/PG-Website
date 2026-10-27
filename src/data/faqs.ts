@@ -30,6 +30,6 @@ export const FAQS: FAQItem[] = [
   },
   {
     q: 'How can I schedule an in-person room visit?',
-    a: 'You can simply tap the "Book Visit" button or message Dhaval Bhai directly on WhatsApp at +91 70695 81011. Physical site visits are available 7 days a week between 9:00 AM and 9:00 PM without any brokerage fees.'
+    a: 'You can simply tap the "Book Visit" button or message admissions directly on WhatsApp at +91 70695 81011. Physical site visits are available 7 days a week between 9:00 AM and 9:00 PM without any brokerage fees.'
   }
 ];

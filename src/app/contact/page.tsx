@@ -28,7 +28,7 @@ export default function ContactPage() {
   const handleInquirySubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const query =
-      `Hello Dhaval Bhai! New Inquiry from Website:\n\n` +
+      `Hello! New Inquiry from Website:\n\n` +
       `👤 *Name:* ${name || 'Prospective Resident'}\n` +
       `📞 *Phone:* ${phone || 'Provided via WhatsApp'}\n` +
       `🏢 *Interested PG:* ${selectedPg}\n` +
@@ -68,7 +68,7 @@ export default function ContactPage() {
             </span>
             <span className="bg-amber-500/15 border border-amber-500/30 text-amber-300 text-xs font-bold px-3 py-1.5 rounded-full flex items-center">
               <ShieldCheck className="w-3.5 h-3.5 mr-1.5" />
-              Direct Owner Admission
+              Direct Admissions Desk
             </span>
             <span className="bg-blue-500/15 border border-blue-500/30 text-blue-300 text-xs font-bold px-3 py-1.5 rounded-full flex items-center">
               ⚡ Instant Room Confirmation
@@ -247,7 +247,7 @@ export default function ContactPage() {
                 Send an Admission Inquiry
               </h3>
               <p className="text-xs text-slate-500 mt-1 mb-6">
-                Fill this quick form to connect directly with Dhaval Bhai on WhatsApp with your exact property preference.
+                Fill this quick form to connect directly with Admissions on WhatsApp with your exact property preference.
               </p>
 
               <form onSubmit={handleInquirySubmit} className="space-y-4">
@@ -329,7 +329,7 @@ export default function ContactPage() {
                   className="w-full py-3.5 px-6 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs tracking-wide transition-all shadow-lg shadow-emerald-600/30 flex items-center justify-center space-x-2"
                 >
                   <Send className="w-4 h-4" />
-                  <span>Send Direct Inquiry to Dhaval Bhai</span>
+                  <span>Send Direct Inquiry on WhatsApp</span>
                 </button>
               </form>
             </div>

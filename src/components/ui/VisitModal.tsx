@@ -43,7 +43,7 @@ export default function VisitModal({ isOpen, onClose, defaultPropertySlug }: Vis
           
           <div className="inline-flex items-center space-x-1.5 px-3 py-1 bg-amber-400/20 border border-amber-400/40 rounded-full text-amber-300 text-[11px] font-extrabold uppercase tracking-wider mb-2">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Zero Brokerage • Direct Owner</span>
+            <span>Zero Brokerage • Verified Visit</span>
           </div>
 
           <h3 className="text-xl sm:text-2xl font-black text-white">
@@ -120,7 +120,7 @@ export default function VisitModal({ isOpen, onClose, defaultPropertySlug }: Vis
           <div className="p-3 bg-emerald-50 rounded-xl border border-emerald-200 text-xs text-emerald-900 space-y-1">
             <div className="font-bold flex items-center">
               <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 mr-1.5 shrink-0" />
-              <span>Instant Confirmation by Dhaval Bhai</span>
+              <span>Instant Confirmation by Admissions Desk</span>
             </div>
             <p className="text-[11px] text-emerald-800">
               No long forms or waiting. Message directly to coordinate arrival time today!
@@ -142,7 +142,7 @@ export default function VisitModal({ isOpen, onClose, defaultPropertySlug }: Vis
               className="w-full py-3 px-4 rounded-xl bg-slate-900 hover:bg-slate-800 text-amber-300 font-bold text-xs transition-all flex items-center justify-center active:scale-95"
             >
               <Phone className="w-3.5 h-3.5 mr-2 text-amber-400 shrink-0" />
-              <span>Call Dhaval Bhai Directly: {CONTACTS.primaryPhoneDisplay}</span>
+              <span>Call Admissions: {CONTACTS.primaryPhoneDisplay}</span>
             </a>
           </div>
 

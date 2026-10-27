@@ -107,7 +107,7 @@ export default function HomePage() {
           </h2>
 
           <p className="text-slate-300 text-sm sm:text-base max-w-xl mx-auto">
-            Rooms fill up quickly for college admissions terms. Reach out to Dhaval Bhai directly on WhatsApp or schedule an in-person walkthrough today.
+            Rooms fill up quickly for college admissions terms. Reach out to PG Management directly on WhatsApp or schedule an in-person walkthrough today.
           </p>
 
           <div className="pt-2 flex flex-wrap items-center justify-center gap-4">
@@ -118,7 +118,7 @@ export default function HomePage() {
               className="px-8 py-4 bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm rounded-2xl transition-all shadow-xl shadow-emerald-600/30 flex items-center"
             >
               <MessageCircle className="w-4 h-4 mr-2" />
-              <span>WhatsApp Dhaval Bhai: +91 70695 81011</span>
+              <span>WhatsApp Admissions: +91 70695 81011</span>
             </a>
 
             <a

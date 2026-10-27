@@ -27,10 +27,11 @@ export default function PropertyLocationMap({ property }: PropertyLocationMapPro
     setTimeout(() => setCopied(false), 2500);
   };
 
-  // Safe Google Maps Embed URL centered on property embed query
-  const embedUrl = `https://maps.google.com/maps?q=${encodeURIComponent(
-    property.embedMapQuery || `${property.name} ${property.address} Ahmedabad`
-  )}&t=&z=16&ie=UTF8&iwloc=&output=embed`;
+  // Safe Google Maps Embed URL centered on property embed query with verified pin
+  const cleanQuery = (property.embedMapQuery || `${property.name} ${property.address} Ahmedabad`).replace(/\+/g, ' ');
+  const embedUrl =
+    property.embedMapUrl ||
+    `https://maps.google.com/maps?q=${encodeURIComponent(cleanQuery)}&hl=en&z=16&output=embed`;
 
   return (
     <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200/90 shadow-md space-y-6">

@@ -50,6 +50,7 @@ export interface Property {
   landmark: string;
   mapUrl: string;
   embedMapQuery: string;
+  embedMapUrl?: string;
   mapCoordinates?: { lat: number; lng: number };
   overview: string;
   highlights: string[];

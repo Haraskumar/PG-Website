@@ -34,7 +34,7 @@ export default function FloatingContact({ currentPropertySlug, currentPropertyNa
           <a
             href={`tel:${CONTACTS.primaryPhone}`}
             className="flex items-center space-x-2 bg-slate-900/90 hover:bg-slate-900 text-amber-300 border border-amber-400/50 px-4 py-3 rounded-full shadow-xl transition-all hover:scale-105 active:scale-95 text-xs font-bold animate-float"
-            title="Call Dhaval Bhai for instant room inquiry"
+            title="Call PG Admissions for instant room inquiry"
           >
             <Phone className="w-4 h-4 text-amber-400 animate-pulse" />
             <span>Call {CONTACTS.primaryPhoneDisplay}</span>

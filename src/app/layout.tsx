@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     template: '%s | Luxora & Sorath PG Ahmedabad',
   },
   description:
-    'Ahmedabad’s premier co-living portal across 7 locations. Luxora Luxury PG & Sorath Smart Budget PG in Navrangpura & Naranpura. 150 Mbps Wi-Fi, 4 & 3 meals included, AC rooms, biometric safety, zero brokerage direct owner admission.',
+    'Ahmedabad’s premier co-living portal across 7 locations. Luxora Luxury PG & Sorath Smart Budget PG in Navrangpura & Naranpura. 150 Mbps Wi-Fi, 4 & 3 meals included, AC rooms, biometric safety, zero brokerage direct admission.',
   keywords: [
     'PG in Navrangpura Ahmedabad',
     'Boys PG near Gujarat University',

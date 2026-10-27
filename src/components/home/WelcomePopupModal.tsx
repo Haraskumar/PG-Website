@@ -149,8 +149,9 @@ export default function WelcomePopupModal() {
                 Premium Living Experience
               </span>
             </div>
-            <span className="text-sm sm:text-base font-black text-amber-900 shrink-0">
-              ₹12,000/mo
+              <span className="flex flex-col text-xs sm:text-sm font-bold text-amber-900 shrink-0 leading-tight">
+              <span>👧 ₹11500/mo</span>
+              <span>👦 ₹15000/mo</span>
             </span>
           </Link>
 

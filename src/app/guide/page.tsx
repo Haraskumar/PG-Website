@@ -116,7 +116,7 @@ export default function GuidePage() {
               <div className="flex items-start">
                 <CheckCircle2 className="w-5 h-5 mr-3 text-amber-500 shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-slate-900">5. Zero Brokerage Direct Admissions:</strong> Never pay hefty commission fees to brokers. Book directly with founders Dhaval Bhai & Babu Bhai.
+                  <strong className="text-slate-900">5. Zero Brokerage Direct Admissions:</strong> Never pay hefty commission fees to brokers. Book directly with PG management.
                 </div>
               </div>
             </div>

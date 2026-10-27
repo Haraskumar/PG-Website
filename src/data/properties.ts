@@ -16,9 +16,10 @@ export const PROPERTIES: Property[] = [
     area: 'Navrangpura / Stadium Six Road',
     city: 'Ahmedabad',
     pincode: '380009',
-    landmark: 'Opp. Gwalia Sweets & Flexi Business Hub',
+    landmark: 'Opp. Gwalia Sweets',
     mapUrl: 'https://maps.app.goo.gl/oRsKZLpbpNvRKCg48?g_st=iw',
-    embedMapQuery: 'Madhur+Complex+Stadium+Six+Road+Navrangpura+Ahmedabad',
+    embedMapQuery: 'Madhur Complex, Stadium Six Road, Navrangpura, Ahmedabad',
+    embedMapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.859604169755!2d72.5565!3d23.0375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e850002328cbd%3A0x38865b213f571a6!2sLuxora%20PG!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
     mapCoordinates: { lat: 23.0375, lng: 72.5565 },
     overview: 'Luxora Boys PG 1 is an ultra-premium co-living space located at Stadium Six Road, Navrangpura. Designed for ambitious university students and working executives, it features boutique fully furnished AC suites, high-speed 150 Mbps fiber internet, fingerprint biometric security, private theatre/entertainment zone, dedicated quiet study halls, and 4-time chef-prepared wholesome meals.',
     highlights: [
@@ -190,7 +191,7 @@ export const PROPERTIES: Property[] = [
         name: 'Dr. Ashok Patel (Parent)',
         role: 'Father of Medical Resident',
         rating: 5,
-        text: 'Clean food, quiet environment, zero nuisance, and Dhaval Bhai handles everything directly with accountability. Highly recommended.',
+        text: 'Clean food, quiet environment, zero nuisance, and the management handles everything directly with accountability. Highly recommended.',
         stayDuration: 'Resident parent'
       }
     ],
@@ -209,16 +210,16 @@ export const PROPERTIES: Property[] = [
     brand: 'LUXORA',
     gender: 'GIRLS',
     badgeTagline: 'Ultra-Secure, Luxury Co-Living for Female Students & Professionals',
-    priceRangeDisplay: '₹12,000 – ₹20,000 / mo',
-    minPrice: 12000,
-    maxPrice: 20000,
+    priceRangeDisplay: '₹11,500 – ₹19,500 / mo',
+    minPrice: 11500,
+    maxPrice: 19500,
     address: 'Sardar Patel Statue Circle, opp. Lifecare Hospital, Sardar Patel Colony, Sundar Nagar, Naranpura',
     area: 'Naranpura / Sardar Patel Colony',
     city: 'Ahmedabad',
     pincode: '380013',
     landmark: 'Opp. Lifecare Hospital, SP Statue Circle',
     mapUrl: 'https://share.google/VHZdGOuRaTluqKWWB',
-    embedMapQuery: 'Sardar+Patel+Statue+Circle+Lifecare+Hospital+Naranpura+Ahmedabad',
+    embedMapQuery: 'Lifecare Hospital, Sardar Patel Statue Circle, Naranpura, Ahmedabad',
     mapCoordinates: { lat: 23.0538, lng: 72.5542 },
     overview: 'Luxora Girls PG 1 sets the gold standard for women’s accommodation in Ahmedabad. Located right opposite Lifecare Hospital at Sardar Patel Statue Circle in Naranpura, this facility combines 360-degree biometric and CCTV security, dedicated female wardens, 4-time hygienic nutrition, serene private study zones, and fully air-conditioned designer rooms.',
     highlights: [
@@ -256,8 +257,8 @@ export const PROPERTIES: Property[] = [
         sharing: 2,
         sharingLabel: '2 Sharing Deluxe Suite',
         type: 'AC',
-        priceMonthly: 20000,
-        priceDisplay: '₹20,000 / mo',
+        priceMonthly: 19500,
+        priceDisplay: '₹19,500 / mo',
         notes: 'Premium 2-bed suite with attached washroom, private wardrobes, AC & study desk',
         image: '/images/pgs/luxora-girls-1/luxora-girls-1-bedroom-01.webp'
       },
@@ -283,8 +284,8 @@ export const PROPERTIES: Property[] = [
         sharing: 5,
         sharingLabel: '5 Sharing Value Room',
         type: 'AC',
-        priceMonthly: 12000,
-        priceDisplay: '₹12,000 / mo',
+        priceMonthly: 11500,
+        priceDisplay: '₹11,500 / mo',
         notes: 'Best-in-class value luxury option with AC and 4 meals included',
         image: '/images/pgs/luxora-girls-1/luxora-girls-1-bedroom-02.webp'
       }
@@ -389,7 +390,8 @@ export const PROPERTIES: Property[] = [
     pincode: '380009',
     landmark: 'Ajay Center, Vijay Cross Road',
     mapUrl: 'https://www.google.com/maps/place/Sorath+Boys+Pg/data=!4m7!3m6!1s0x395e854bdaa13459:0x4f09129a7da70896!8m2!3d23.0435268!4d72.551469!16s%2Fg%2F11nr8xwh7p!19sChIJWTSh2kuFXjkRlginfZoSCU8?authuser=0&hl=en&g_ep=EgoyMDI2MTAxOC4wIJJjKgBIAVAD&rclk=1',
-    embedMapQuery: 'Ajay+Center+Vijay+Cross+Road+Navrangpura+Ahmedabad',
+    embedMapQuery: 'Sorath Boys Pg, Ajay Center, Vijay Cross Road, Navrangpura, Ahmedabad',
+    embedMapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.697960714902!2d72.551469!3d23.0435268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e854bdaa13459%3A0x4f09129a7da70896!2sSorath%20Boys%20Pg!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
     mapCoordinates: { lat: 23.0435, lng: 72.5515 },
     overview: 'Sorath Boys PG 1 is located at Ajay Center on Vijay Cross Road in Navrangpura — the epicenter of student life in Ahmedabad. Walking distance to Gujarat University, CEPT, and the BRTS transit network, it provides budget-conscious students with high standards of cleanliness, 3 nutritious home-style meals, 150 Mbps Wi-Fi, and 24-hour security.',
     highlights: [
@@ -562,7 +564,8 @@ export const PROPERTIES: Property[] = [
     pincode: '380009',
     landmark: 'Memnagar Fire Station, Pallavi Tower 1',
     mapUrl: 'https://maps.app.goo.gl/LULdgp6zebYxpPvi8?g_st=iw',
-    embedMapQuery: 'Pallavi+Tower+1+Memnagar+Fire+Station+Navrangpura+Ahmedabad',
+    embedMapQuery: 'Pallavi Tower, Memnagar, Ahmedabad',
+    embedMapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.697960714902!2d72.548889!3d23.043527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e854bdaa13459%3A0x4f09129a7da70896!2sPallavi%20Tower%2C%20Memnagar!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
     mapCoordinates: { lat: 23.0448, lng: 72.5488 },
     overview: 'Sorath Boys PG 2 is situated inside the well-known Pallavi Tower 1 near Memnagar Fire Station at Vijay Char Rasta. Enjoy seamless access to public transport, library clusters, and dining joints, backed by 3 home-cooked meals every day, 150 Mbps high-speed internet, and dedicated facility supervision.',
     highlights: [
@@ -678,7 +681,7 @@ export const PROPERTIES: Property[] = [
         name: 'Bhavin Vaghela',
         role: 'HL College of Commerce Student',
         rating: 5,
-        text: 'Very peaceful PG in Pallavi Tower. Food is fresh and always served hot. Dhaval Bhai responds immediately to any maintenance request.',
+        text: 'Very peaceful PG in Pallavi Tower. Food is fresh and always served hot. The management responds immediately to any maintenance request.',
         stayDuration: 'Resident for 7 months'
       },
       {
@@ -713,7 +716,8 @@ export const PROPERTIES: Property[] = [
     pincode: '380009',
     landmark: 'Pallavi Tower 1, Memnagar Fire Station',
     mapUrl: 'https://maps.app.goo.gl/LULdgp6zebYxpPvi8?g_st=iw',
-    embedMapQuery: 'Pallavi+Tower+1+Memnagar+Fire+Station+Navrangpura+Ahmedabad',
+    embedMapQuery: 'Pallavi Tower, Memnagar, Ahmedabad',
+    embedMapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.697960714902!2d72.548889!3d23.043527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e854bdaa13459%3A0x4f09129a7da70896!2sPallavi%20Tower%2C%20Memnagar!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
     mapCoordinates: { lat: 23.0449, lng: 72.5489 },
     overview: 'Sorath Boys PG 3 delivers an optimal balance between affordability and comfort. Situated at Pallavi Tower 1, this unit offers multiple 3-sharing and 4-sharing room options with varied room tiers (Standard and Deluxe), allowing residents to choose the exact setup that fits their lifestyle and monthly budget.',
     highlights: [
@@ -851,7 +855,7 @@ export const PROPERTIES: Property[] = [
         name: 'Hardik Solanki',
         role: 'Tech Executive (C.G. Road)',
         rating: 5,
-        text: 'I stayed at Pallavi Tower for over a year while working in Navrangpura. Clean rooms, reliable power, washing machine, and hot water every morning. The management (Dhaval Bhai & Babu Bhai) are always responsive on WhatsApp.',
+        text: 'I stayed at Pallavi Tower for over a year while working in Navrangpura. Clean rooms, reliable power, washing machine, and hot water every morning. The PG management is always responsive on WhatsApp.',
         stayDuration: 'Staying since 14 months'
       }
     ],
@@ -879,7 +883,8 @@ export const PROPERTIES: Property[] = [
     pincode: '380009',
     landmark: 'Pallavi Tower 1, Memnagar Fire Station',
     mapUrl: 'https://maps.app.goo.gl/LULdgp6zebYxpPvi8?g_st=iw',
-    embedMapQuery: 'Pallavi+Tower+1+Memnagar+Fire+Station+Navrangpura+Ahmedabad',
+    embedMapQuery: 'Pallavi Tower, Memnagar, Ahmedabad',
+    embedMapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.697960714902!2d72.548889!3d23.043527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e854bdaa13459%3A0x4f09129a7da70896!2sPallavi%20Tower%2C%20Memnagar!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
     mapCoordinates: { lat: 23.0450, lng: 72.5490 },
     overview: 'Sorath Boys PG 4 is designed specifically for students who prioritize strict budget control without sacrificing meal nutrition, safety, or cleanliness. Providing 3 wholesome meals every single day and blazing-fast 150 Mbps Wi-Fi, this property is situated right at Pallavi Tower 1 near Vijay Char Rasta.',
     highlights: [
@@ -1008,7 +1013,7 @@ export const PROPERTIES: Property[] = [
     pincode: '380009',
     landmark: 'Beside Maharaja Palace, Vijay Cross Road',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=23.040778,72.547222',
-    embedMapQuery: 'Maharaja+Palace+Vijay+Cross+Road+Navrangpura+Ahmedabad',
+    embedMapQuery: 'Maharaja Palace, Vijay Cross Road, Navrangpura, Ahmedabad',
     mapCoordinates: { lat: 23.0408, lng: 72.5472 },
     overview: 'Sorath Girls PG 1 offers girls studying or working in Ahmedabad a safe, highly hygienic, and family-trusted living environment right beside Maharaja Palace on Vijay Cross Road. With both economical Non-AC and fully air-conditioned rooms (including dedicated lift access options), 3 home-style meals, and 24/7 CCTV surveillance, female residents enjoy comfort with total peace of mind.',
     highlights: [

@@ -63,7 +63,7 @@ export const TESTIMONIALS: Testimonial[] = [
     propertyName: 'Sorath Boys PG 3',
     brand: 'SORATH',
     rating: 5,
-    text: 'I stayed at Pallavi Tower for over a year while working in Navrangpura. Clean rooms, reliable power, washing machine, and hot water every morning. The management (Dhaval Bhai & Babu Bhai) are always responsive on WhatsApp.',
+    text: 'I stayed at Pallavi Tower for over a year while working in Navrangpura. Clean rooms, reliable power, washing machine, and hot water every morning. The PG management is always responsive on WhatsApp.',
     stayDuration: 'Staying since 14 months'
   }
 ];
