@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   description:
     'Compare 7 verified student and executive PGs in Ahmedabad. Filter by Luxora (Luxury) or Sorath (Budget), Boys or Girls, 2, 3, 4, 5 sharing, AC or Non-AC.',
   alternates: {
-    canonical: 'https://luxorasorathpg.com/pgs',
+    canonical: 'https://luxora11.in/pgs',
   },
   openGraph: {
     title: 'Explore All 7 PG Accommodations in Navrangpura & Naranpura',
     description:
       'Compare 7 verified student and executive PGs in Ahmedabad. Filter by Luxora (Luxury) or Sorath (Budget), Boys or Girls, 2, 3, 4, 5 sharing, AC or Non-AC.',
-    url: 'https://luxorasorathpg.com/pgs',
+    url: 'https://luxora11.in/pgs',
     type: 'website',
   },
 };

@@ -5,8 +5,8 @@ export default function JsonLd() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Luxora & Sorath PG Accommodations Ahmedabad',
-    url: 'https://luxorasorathpg.com',
-    logo: 'https://luxorasorathpg.com/images/brand/luxora-logo.webp',
+    url: 'https://luxora11.in',
+    logo: 'https://luxora11.in/images/brand/luxora-logo.webp',
     contactPoint: [
       {
         '@type': 'ContactPoint',

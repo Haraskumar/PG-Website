@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://luxorasorathpg.com/sitemap.xml',
+    sitemap: 'https://luxora11.in/sitemap.xml',
   };
 }

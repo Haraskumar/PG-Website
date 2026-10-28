@@ -25,7 +25,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://luxorasorathpg.com'),
+  metadataBase: new URL('https://luxora11.in'),
   alternates: {
     canonical: '/',
   },
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://luxorasorathpg.com',
+    url: 'https://luxora11.in',
     siteName: 'Luxora & Sorath PG Ahmedabad',
     title: 'Luxora & Sorath PG Ahmedabad | Best Student & Executive Accommodations',
     description:

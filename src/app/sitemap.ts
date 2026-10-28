@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { PROPERTIES } from '@/data/properties';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://luxorasorathpg.com';
+  const baseUrl = 'https://luxora11.in';
 
   const staticPages: MetadataRoute.Sitemap = [
     {

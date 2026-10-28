@@ -45,12 +45,12 @@ export async function generateMetadata({ params }: PropertyPageProps): Promise<M
     description: property.seo.metaDescription,
     keywords: property.seo.keywords,
     alternates: {
-      canonical: `https://luxorasorathpg.com/pgs/${property.slug}`,
+      canonical: `https://luxora11.in/pgs/${property.slug}`,
     },
     openGraph: {
       title: property.seo.metaTitle,
       description: property.seo.metaDescription,
-      url: `https://luxorasorathpg.com/pgs/${property.slug}`,
+      url: `https://luxora11.in/pgs/${property.slug}`,
       images: property.images.length > 0 ? [{ url: property.images[0].src }] : undefined,
     },
     twitter: {
@@ -80,10 +80,10 @@ export default async function PropertyDetailPage({ params }: PropertyPageProps) 
     '@type': 'Hostel',
     name: property.name,
     description: property.overview,
-    url: `https://luxorasorathpg.com/pgs/${property.slug}`,
+    url: `https://luxora11.in/pgs/${property.slug}`,
     telephone: CONTACTS.primaryPhone,
     priceRange: property.priceRangeDisplay,
-    image: primaryHero ? `https://luxorasorathpg.com${primaryHero.src}` : undefined,
+    image: primaryHero ? `https://luxora11.in${primaryHero.src}` : undefined,
     address: {
       '@type': 'PostalAddress',
       streetAddress: property.address,
