@@ -109,7 +109,7 @@ export default function Footer() {
                 <div className="w-7 h-7 rounded-lg bg-amber-400/15 flex items-center justify-center mr-2.5 shrink-0 border border-amber-400/30 group-hover:bg-amber-400/25">
                   <Phone className="w-3.5 h-3.5 text-amber-400" />
                 </div>
-                <span>Primary: <strong className="text-white font-bold">{CONTACTS.primaryPhoneDisplay}</strong> ({CONTACTS.primaryContactName})</span>
+                <span>Primary: <strong className="text-white font-bold">{CONTACTS.primaryPhoneDisplay}</strong> (Dhaval Bhai)</span>
               </a>
               <a
                 href={`tel:${CONTACTS.secondaryPhone}`}
@@ -118,7 +118,7 @@ export default function Footer() {
                 <div className="w-7 h-7 rounded-lg bg-teal-400/15 flex items-center justify-center mr-2.5 shrink-0 border border-teal-400/30 group-hover:bg-teal-400/25">
                   <Phone className="w-3.5 h-3.5 text-teal-400" />
                 </div>
-                <span>Contact: <strong className="text-white font-bold">{CONTACTS.secondaryPhoneDisplay}</strong> ({CONTACTS.secondaryContactName})</span>
+                <span>Contact: <strong className="text-white font-bold">{CONTACTS.secondaryPhoneDisplay}</strong> (Babu Bhai)</span>
               </a>
               <a
                 href={`mailto:${CONTACTS.email}`}
